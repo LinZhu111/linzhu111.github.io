@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Lin Zhu （朱林）"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
