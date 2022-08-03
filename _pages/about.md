@@ -19,6 +19,9 @@ Research Insterests
 ======
 **Computer Vision, Deep Learning, Spiking Neural Network, Brian-inspired Computing, Neuromorphic Vision.**
 
+**I’m looking for self-motivated M. S. students with solid background in programming and mathematics.
+Please send me email if you have interest.**
+
 Research Experience
 ======
 - Intern, Pengcheng National Laboratory (PCNL), Shenzhen, Guangdong, 7/2019 - 01/2022  
