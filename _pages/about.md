@@ -21,12 +21,9 @@ Research Insterests
 
 Research Experience
 ======
- -Intern, Pengcheng National Laboratory (PCNL), Shenzhen, Guangdong, 7/2019 - 01/2022
- 
- -Ph.D., Peking University, School of Computer Science, 09/2018 - 06/2022
- 
- -M.S., Chinese Academy of Ordnance Science, North Automatic Control Technology Institute, 08/2015 - 06/2018
- 
+ -Intern, Pengcheng National Laboratory (PCNL), Shenzhen, Guangdong, 7/2019 - 01/2022  
+ -Ph.D., Peking University, School of Computer Science, Advisor: Prof. Yonghong Tian, 09/2018 - 06/2022   
+ -M.S., Chinese Academy of Ordnance Science, North Automatic Control Technology Institute, 08/2015 - 06/2018  
  -B.E., Northwestern Polytechnic University, School of Aerospace, 09/2010 - 07/2014
  
 Recent Publications
