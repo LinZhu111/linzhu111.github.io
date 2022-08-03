@@ -32,7 +32,7 @@ Research Experience
 Recent Publications
 ------
 
-- **Lin Zhu**, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022._** (CCF-A).**
+- **Lin Zhu**, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022._ **(CCF-A).**
 
 - **Lin Zhu**, Xiao Wang, Yi Chang, Jianing Li, Tiejun Huang, Yonghong Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
 
