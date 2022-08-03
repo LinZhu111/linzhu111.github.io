@@ -29,42 +29,39 @@ Education Background
 ------
 The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Publications
+Recent Publications
 ------
-2022
 
-Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022. (CCF-A).
+-Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022. (CCF-A).
 
-Lin Zhu, Xiao Wang, Yi Chang, Jianing Li, Tiejun Huang, Yonghong Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022. (CCF-A).
+-Lin Zhu, Xiao Wang, Yi Chang, Jianing Li, Tiejun Huang, Yonghong Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022. (CCF-A).
 
-Xijie Xiang, Lin Zhu, Jianing Li, Yixuan Wang, Tiejun Huang, Yonghong Tian. Learning Super-Resolution Reconstruction for High Temporal Resolution Spike Stream. IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT), 2022. (CCF-B).
+-Xijie Xiang, Lin Zhu, Jianing Li, Yixuan Wang, Tiejun Huang, Yonghong Tian. Learning Super-Resolution Reconstruction for High Temporal Resolution Spike Stream. IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT), 2022. (CCF-B).
 
-Jianing Li, Jia Li, Lin Zhu, Xijie Xiang, Tiejun Huang, YonghongTian. Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection. IEEE Transactions on Image Processing (IEEE TIP), 2022. (CCF-A)
+-Jianing Li, Jia Li, Lin Zhu, Xijie Xiang, Tiejun Huang, YonghongTian. Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection. IEEE Transactions on Image Processing (IEEE TIP), 2022. (CCF-A)
 
-Jianing Li, Xiao Wang, Lin Zhu, Tiejun Huang, Yonghong Tian. Retinomorphic Object Detection in Asynchronous Visual Streams. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2022. (Oral, CCF-A).
+-Jianing Li, Xiao Wang, Lin Zhu, Tiejun Huang, Yonghong Tian. Retinomorphic Object Detection in Asynchronous Visual Streams. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2022. (Oral, CCF-A).
 
-Yuntong Ye, Changfeng Yu, Yi Chang, Lin Zhu, Xi-le Zhao, Luxin Yan, Yonghong Tian. Unsupervised Deraining: Where Contrastive Learning Meets Self-similarity. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022. (CCF-A).
+-Yuntong Ye, Changfeng Yu, Yi Chang, Lin Zhu, Xi-le Zhao, Luxin Yan, Yonghong Tian. Unsupervised Deraining: Where Contrastive Learning Meets Self-similarity. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022. (CCF-A).
 
-- 2021
+-Lin Zhu, Jianing Li, Xiao Wang, Tiejun Huang, Yonghong Tian. NeuSpike-Net: High Speed Image Reconstruction via Bio-inspired Neuromorphic Cameras. In International Conference on Computer Vision (ICCV), 2021. (CCF-A).
 
-Lin Zhu, Jianing Li, Xiao Wang, Tiejun Huang, Yonghong Tian. NeuSpike-Net: High Speed Image Reconstruction via Bio-inspired Neuromorphic Cameras. In International Conference on Computer Vision (ICCV), 2021. (CCF-A).
+-Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Retina-Like Visual Image Reconstruction via Spiking Neural Model. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020. (Oral, CCF-A).
 
-Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Retina-Like Visual Image Reconstruction via Spiking Neural Model. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020. (Oral, CCF-A).
-
-Zhaodong Kang, Jianing Li, Lin Zhu, Yonghong Tian. Retinomorphic Sensing: A Novel Paradigm for Future Multimedia Computing. In Proceedings of ACM International
+-Zhaodong Kang, Jianing Li, Lin Zhu, Yonghong Tian. Retinomorphic Sensing: A Novel Paradigm for Future Multimedia Computing. In Proceedings of ACM International
 Conference on Multimedia (ACM MM), 2021. (Oral, CCF-A).
 
-Lin Zhu, Siwei Dong, Tiejun Huang, Yonghong Tian. Hybrid Coding of Spatiotemporal Spike Data for a Bio-inspired Camera. IEEE Transactions on Circuits and Systems for Video Technology. (IEEE TCSVT), 2021. (CCF-B).
+-Lin Zhu, Siwei Dong, Tiejun Huang, Yonghong Tian. Hybrid Coding of Spatiotemporal Spike Data for a Bio-inspired Camera. IEEE Transactions on Circuits and Systems for Video Technology. (IEEE TCSVT), 2021. (CCF-B).
 
-Lin Zhu, Xiurong Jiang, Jianing Li, Yonghong Tian. Motion-aware Structured Matrix Factorization for Foreground Detection in Complex Scenes. ACM Transactions on Multimedia Computing, Communications, and Applications. (ACM TOMM), 2020. (CCF-B).
+-Lin Zhu, Xiurong Jiang, Jianing Li, Yonghong Tian. Motion-aware Structured Matrix Factorization for Foreground Detection in Complex Scenes. ACM Transactions on Multimedia Computing, Communications, and Applications. (ACM TOMM), 2020. (CCF-B).
 
-Lin Zhu, Siwei Dong, Tiejun Huang, Yonghong Tian. A Retina-inspired Sampling Method for Visual Texture Reconstruction. In IEEE International Conference on Multimedia and Expo (ICME), 2019. (CCF-B).
+-Lin Zhu, Siwei Dong, Tiejun Huang, Yonghong Tian. A Retina-inspired Sampling Method for Visual Texture Reconstruction. In IEEE International Conference on Multimedia and Expo (ICME), 2019. (CCF-B).
 
-Xiurong Jiang, Lin Zhu, Hui Tian. Learning event guided network for salient object detection. Pattern Recognition Letters (PRL), 2021. (CCF-C).
+-Xiurong Jiang, Lin Zhu, Hui Tian. Learning event guided network for salient object detection. Pattern Recognition Letters (PRL), 2021. (CCF-C).
 
-Lin Zhu, Yuanhong Hao and Yuejin Song. L1/2 Norm and Spatial Continuity Regularized Low-Rank Approximation for Moving Object Detection in Dynamic Background. IEEE Signal Processing Letters (IEEE SPL), 2018. (CCF-C).
+-Lin Zhu, Yuanhong Hao and Yuejin Song. L1/2 Norm and Spatial Continuity Regularized Low-Rank Approximation for Moving Object Detection in Dynamic Background. IEEE Signal Processing Letters (IEEE SPL), 2018. (CCF-C).
 
-Siwei Dong, Lin Zhu, Daoyuan Xu, Tiejun Huang, Yonghong Tian. An Efficient Coding Method for Spike Camera using Inter-spike Intervals. In Data Compression Conference (DCC), 2019. (CCF-B).
+-Siwei Dong, Lin Zhu, Daoyuan Xu, Tiejun Huang, Yonghong Tian. An Efficient Coding Method for Spike Camera using Inter-spike Intervals. In Data Compression Conference (DCC), 2019. (CCF-B).
 
 
 
