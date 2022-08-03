@@ -67,10 +67,23 @@ Conference on Multimedia (ACM MM), 2021. (Oral, CCF-A).
 
 Patents
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+[1] Spike signal-based display method and system Inventors - US Patent 10,937,132. Tiejun Huang, Lin Zhu, Yonghong Tian, FU Yihua, LI Jianing, Siwei Dong, Yaowei Wang
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+[2] 一种脉冲阵列信号的降噪方法与系统 - 201910577862.3 发明人：田永鸿;朱林;李家宁;付溢华;董思维;黄铁军
+
+[3] 一种基于脉冲信号的显示方法和系统 - 201910027914.X 发明人：黄铁军;朱林;田永鸿;付溢华;李家宁;董思维;王耀威
+
+[4] 一种脉冲序列的距离度量方法及系统 - 201910040980.0 发明人：田永鸿;朱林;李家宁;付溢华;董思维;黄铁军;王耀威
+
+[5] 一种脉冲阵列信号时空上采样器生成方法 - 201910577877.X 发明人：田永鸿;项锡捷;李家宁;朱林;付溢华;董思维;黄铁军
+
+[6] 一种脉冲阵列信号的编解码方法 - 201910021870.X 发明人：田永鸿;付溢华;李家宁;朱林;董思维;王耀威
+
+[7] 一种时空脉冲阵列的运动估计方法、电子设备及存储介质 - 201910020716.0 发明人：田永鸿;李家宁;付溢华;朱林;董思维;黄铁军;王耀威
+
+[8] 基于视频帧与脉冲阵列信号的联合目标检测方法与装置 - 201910579928.2 发明人：田永鸿;李家宁;朱林;付溢华;项锡捷;董思维;黄铁军
+
+
 
 For more info
 ------
