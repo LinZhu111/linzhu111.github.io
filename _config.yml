@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lin Zhu （朱林）"
+title                    : "Lin Zhu"
 title_separator          : "-"
 name                     : &name "Lin Zhu"
 description              : &description "personal description"
