@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,13 +9,17 @@ redirect_from:
 ---
 
 Lin Zhu
+
 Assistant Professor
+
 School of computer Science & Technology
+
 Beijing Institute of Technology
+
 E-mail: linzhu at bit.edu.cn
+
 Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
-Hi! I’m Lin Zhu, an Assistant Professor at Beijing Institute of Technology in the School of computer Science & Technology. I’m an interpretive social scientist by training with a background in the humanities, but I have just enough expertise in computer science and data science to make trouble. My research, teaching, and broader service are all grounded in the idea that science and technology are inherently social activities, which are directed, operated, and maintained in certain ways (and not in other ways), by people in and outside of institutions.
 
 Research Insterests
 ======
