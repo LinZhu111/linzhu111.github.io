@@ -17,7 +17,7 @@ Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5
 
 Research Insterests
 ======
-**Computer Vision, Deep Learning, Spiking Neural Network, Brian-inspired Computing, Neuromorphic Vision.**
+Computer Vision, Deep Learning, Spiking Neural Network, Brian-inspired Computing, Neuromorphic Vision.
 
 **I’m looking for self-motivated M. S. students with solid background in programming and mathematics.
 Please send me email if you have interest.**
