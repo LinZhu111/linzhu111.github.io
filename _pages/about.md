@@ -8,16 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Lin Zhu
-
-Assistant Professor
-
-School of computer Science & Technology
-
-Beijing Institute of Technology
-
-E-mail: linzhu at bit.edu.cn
-
+**Assistant Professor**  
+School of computer Science & Technology  
+Beijing Institute of Technology  
+E-mail: linzhu at bit.edu.cn  
 Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
