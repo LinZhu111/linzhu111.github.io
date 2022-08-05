@@ -87,4 +87,4 @@ Patents
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info can be found in [中文介绍](https://cs.bit.edu.cn/szdw/jsml/fjs/7125f0050e1244779308fa53add3e3b8/index.htm).
