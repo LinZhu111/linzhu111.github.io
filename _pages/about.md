@@ -9,18 +9,18 @@ redirect_from:
 ---
 
 **Assistant Professor**  
-School of computer Science & Technology  
+School of Computer Science & Technology  
 Beijing Institute of Technology  
 E-mail: linzhu at bit.edu.cn  
 Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
-Research Insterests
+Research Interests
 ======
 Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
-**I’m looking for self-motivated M. S. students with solid background in programming and mathematics.
-Please send me email if you have interest.**
+**I’m looking for self-motivated M.S. students with solid backgrounds in programming and mathematics.
+Please send me an email if you are interested.**
 
 Research Experience
 ======
