@@ -8,4 +8,4 @@ date: 2023-09-01
 location: "Beijing, China"
 ---
 
-Course website: https://coursehome.zhihuishu.com/courseHome/1000081369
+[More information here]([http://example2.com](https://coursehome.zhihuishu.com/courseHome/1000081369)https://coursehome.zhihuishu.com/courseHome/1000081369)
