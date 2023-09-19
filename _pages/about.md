@@ -22,13 +22,13 @@ Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing
 **I’m looking for self-motivated M.S. students with solid backgrounds in programming and mathematics.
 Please send me an email if you are interested.**
 
-Research Experience
+News and Events
 ======
-- Intern, Pengcheng National Laboratory (PCNL), Shenzhen, Guangdong, 7/2019 - 01/2022  
-- Ph.D., Peking University, School of Computer Science, Advisor: Prof. Yonghong Tian, 09/2018 - 06/2022   
-- M.S., Chinese Academy of Ordnance Science, North Automatic Control Technology Institute, Advisor: Yuejin Song, 08/2015 - 06/2018  
-- B.E., Northwestern Polytechnic University, School of Aerospace, 09/2010 - 07/2014
- 
+(from 2023)
+- 2023.7 One paper accepted by ICCV23
+- 2023.7 One paper accepted by ACM'MM23
+- 2023.4 One paper accepted by IEEE TMM
+
 Recent Publications
 ------
 
