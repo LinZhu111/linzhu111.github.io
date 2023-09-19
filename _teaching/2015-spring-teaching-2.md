@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Computer Graphics"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+permalink: /teaching/2015-autumn-teaching-1
+venue: "School of Computer Science & Technology, Beijing Institute of Technology"
+date: 2023-09-01
+location: "Beijing, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Course website: https://coursehome.zhihuishu.com/courseHome/1000081369
