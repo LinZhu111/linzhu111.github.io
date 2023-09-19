@@ -15,12 +15,6 @@ He leads various research projects, including the National Natural Science Found
 
 He accepts 2-4 master's students every year and welcomes students who are passionate about research and have strong programming skills to join his team. The research team provides an excellent working environment, computational resources, research funding, and opportunities for domestic and international exchanges. Interested students are encouraged to contact him as soon as possible to express their intention to join the team!
 
-Contact
-------
-School of Computer Science & Technology  
-Beijing Institute of Technology  
-E-mail: linzhu at bit.edu.cn  
-Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 Research Interests
 ------
@@ -52,7 +46,12 @@ Recent Publications
 
 - **Lin Zhu**, Xiurong Jiang, Jianing Li, Yonghong Tian. Motion-aware Structured Matrix Factorization for Foreground Detection in Complex Scenes. _ACM Transactions on Multimedia Computing, Communications, and Applications. (ACM TOMM), 2020._ **(CCF-B).**
 
-
+Contact
+------
+School of Computer Science & Technology  
+Beijing Institute of Technology  
+E-mail: linzhu at bit.edu.cn  
+Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 For more info
 ------
