@@ -181,7 +181,11 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path
 
+  
 # Defaults
 defaults:
   # _posts
@@ -215,6 +219,14 @@ defaults:
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: talk
       author_profile: true
