@@ -10,7 +10,7 @@ redirect_from:
 
 Recent Publications
 ------
-- **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM Multimedia (ACM MM), 2023._ **(CCF-A).**
+- **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM International Conference on Multimedia (ACM MM), 2023._ **(CCF-A).**
 
 - Yunshan Qi, **Lin Zhu\***, Yu Zhang, Jia Li\*. E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images. In _International Conference on Computer Vision (ICCV), 2021._ **(CCF-A).**
 
