@@ -25,6 +25,7 @@ Please send me an email if you are interested.**
 News and Events
 ======
 (from 2023)
+- 2023.9 One paper accepted by IEEE TCYB
 - 2023.7 One paper accepted by ICCV23
 - 2023.7 One paper accepted by ACM'MM23
 - 2023.4 One paper accepted by IEEE TMM
