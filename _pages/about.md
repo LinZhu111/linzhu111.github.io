@@ -33,7 +33,10 @@ News and Events
 
 Recent Publications
 ------
+- **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM Multimedia (ACM MM) 2023._ **(CCF-A).**
 
+- Yunshan Qi, **Lin Zhu\***, Yu Zhang, Jia Li\*. E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images. In _International Conference on Computer Vision (ICCV), 2023._ **(CCF-A).**
+  
 - **Lin Zhu**, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022._ **(CCF-A).**
 
 - **Lin Zhu**, Xiao Wang, Yi Chang, Jianing Li, Tiejun Huang, Yonghong Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
