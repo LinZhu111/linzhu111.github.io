@@ -27,6 +27,7 @@ Please send me an email if you are interested.**
 News and Events
 ======
 (from 2023)
+- 2023.10 One paper accepted by IEEE TPAMI
 - 2023.9 One paper accepted by IEEE TPAMI
 - 2023.9 One paper accepted by IEEE TCYB
 - 2023.7 One paper accepted by ICCV23
@@ -35,6 +36,8 @@ News and Events
 
 Recent Publications
 ------
+- Daxin Gu, Jia Li\*, **Lin Zhu\***, Yu Zhang, Jimmy S. Ren. Reliable Event Generation with Invertible Conditional Normalizing Flow. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2023._ **(CCF-A).**
+
 - **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM Multimedia (ACM MM) 2023._ **(CCF-A).**
 
 - Yunshan Qi, **Lin Zhu\***, Yu Zhang, Jia Li\*. E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images. In _International Conference on Computer Vision (ICCV), 2023._ **(CCF-A).**
