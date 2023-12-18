@@ -27,6 +27,7 @@ Please send me an email if you are interested.**
 News and Events
 ======
 (from 2023)
+- 2023.12 Two papers accepted by AAAI24
 - 2023.10 One paper accepted by IEEE TPAMI
 - 2023.9 One paper accepted by IEEE TPAMI
 - 2023.9 One paper accepted by IEEE TCYB
