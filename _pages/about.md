@@ -19,9 +19,6 @@ Research Interests
 ======
 Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
-**I’m looking for self-motivated M.S. students with solid backgrounds in programming and mathematics.
-Please send me an email if you are interested.**
-
 招收24届研究生，欢迎提前联系！
 
 News and Events
