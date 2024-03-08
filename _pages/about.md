@@ -24,13 +24,14 @@ Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing
 News and Events
 ======
 (from 2023)
-- 2023.12 Two papers accepted by AAAI24
-- 2023.10 One paper accepted by IEEE TPAMI
-- 2023.9 One paper accepted by IEEE TPAMI
-- 2023.9 One paper accepted by IEEE TCYB
-- 2023.7 One paper accepted by ICCV23
-- 2023.7 One paper accepted by ACM'MM23
-- 2023.4 One paper accepted by IEEE TMM
+- 2024.2 Two papers were accepted by CVPR2024
+- 2023.12 Two papers were accepted by AAAI24
+- 2023.10 One paper was accepted by IEEE TPAMI
+- 2023.9 One paper was accepted by IEEE TPAMI
+- 2023.9 One paper was accepted by IEEE TCYB
+- 2023.7 One paper was accepted by ICCV23
+- 2023.7 One paper was accepted by ACM'MM23
+- 2023.4 One paper was accepted by IEEE TMM
 
 Recent Publications
 ------
