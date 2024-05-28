@@ -48,7 +48,7 @@ Recent Publications
 
 1. X Wang, S Wang, C Tang, **L Zhu**, B Jiang, Y Tian, J Tang. Event Stream-based Visual Object Tracking: A High-Resolution Benchmark Dataset and A Novel Baseline. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
   
-1. M Zhang, L Wang, **L Zhu**, H Huang. Learning a physics-based filter attachment for hyperspectral imaging with RGB cameras. Neurocomputing, 2024.
+1. M Zhang, L Wang, **L Zhu**, H Huang. Learning a physics-based filter attachment for hyperspectral imaging with RGB cameras. _Neurocomputing, 2024._ **(CCF-C).**
 
 1. **L Zhu**, X Chen, X Wang, H Huang. Finding Visual Saliency in Continuous Spike Stream. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024._ **(CCF-A).**
 
