@@ -7,12 +7,13 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  /* background-color: $background-color;*/
+  background-color: #F6F6F6;
+   /* $background-color
   background-image: https://picx.zhimg.com/80/v2-c6d38ddd04bcd900e8058acd924f3a19_720w.webp?source=2c26e567;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
   font-size: 16px;
 
   @include breakpoint($medium) {
