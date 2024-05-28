@@ -35,11 +35,12 @@ News and Events
 
 Recent Publications
 ------
+
 2024
 ------
 1. **L Zhu**, K Jia, Y Zhao, Y Qi, L Wang, H Huang. SpikeNeRF: Learning Neural Radiance Fields from Continuous Spike Stream. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
-1. M Geng, **L Zhu**, L Wang, W Zhang, R Xiong, Y Tian. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+1. M Geng, **L Zhu\***, L Wang, W Zhang, R Xiong, Y Tian\*. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
 1. X Wang, L Wang, X Ma, M Zhang, **L Zhu**, H Huang. In2SET: Intra-Inter Similarity Exploiting Transformer for Dual-Camera Compressive Hyperspectral Imaging. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
 
