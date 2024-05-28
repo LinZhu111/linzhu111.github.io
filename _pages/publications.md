@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+See [Google scholar](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=32d6xfEAAAAJ&sortby=pubdate) for more informaiton.
+
 Recent Publications
 ------
 - **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM International Conference on Multimedia (ACM MM), 2023._ **(CCF-A).**
