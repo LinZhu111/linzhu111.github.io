@@ -19,7 +19,7 @@ Research Interests
 ======
 Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
-招收24届研究生，欢迎提前联系！
+招收25届研究生，欢迎提前联系！
 
 News and Events
 ======
