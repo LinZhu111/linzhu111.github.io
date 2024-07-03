@@ -24,6 +24,8 @@ Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing
 News and Events
 ======
 (from 2023)
+- 2024.7 One paper was accepted by ECCV2024
+- 2024.6 I was named CVPR 2024 Outstanding Reviewer
 - 2024.2 Two papers were accepted by CVPR2024
 - 2023.12 Two papers were accepted by AAAI24
 - 2023.10 One paper was accepted by IEEE TPAMI
