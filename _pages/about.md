@@ -37,6 +37,7 @@ News and Events
 
 Recent Publications
 ------
+See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=32d6xfEAAAAJ&sortby=pubdate) for more information.
 
 2024
 ------
