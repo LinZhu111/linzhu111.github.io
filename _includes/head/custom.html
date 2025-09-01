@@ -36,3 +36,28 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <!-- end custom head snippets -->
+
+<!-- === Full-page background layer === -->
+<style>
+  html, body { height: 100%; }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("{{ '/assets/images/background.jpg' | relative_url }}") no-repeat center center / cover;
+    z-index: -1;
+    opacity: 1;
+    pointer-events: none;
+    will-change: transform;
+  }
+
+  /* 让常见容器透明，不遮挡背景 */
+  .initial-content,
+  .page,
+  .page__content,
+  .masthead,
+  .site-footer,
+  .sidebar {
+    background: transparent !important;
+  }
+</style>
