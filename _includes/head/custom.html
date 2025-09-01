@@ -61,3 +61,31 @@
     background: transparent !important;
   }
 </style>
+
+<style>
+  /* ---- Sticky footer：让页脚始终贴底 ---- */
+  html, body { height: 100%; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* 头部不占用弹性空间 */
+  .masthead { flex: 0 0 auto; }
+
+  /* 主体内容占满剩余空间，把页脚“顶”到底部 */
+  .initial-content, .page { flex: 1 0 auto; }
+
+  /* 页脚贴底 */
+  .site-footer {
+    flex: 0 0 auto;
+    margin-top: auto;
+  }
+
+  /* 只对 sitemap 页再稳一下（有些版本使用该类） */
+  body.layout--sitemap .initial-content,
+  body.layout--sitemap .page {
+    min-height: auto; /* 交给 flex 布局处理高度 */
+  }
+</style>
