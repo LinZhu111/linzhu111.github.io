@@ -15,9 +15,6 @@ body {
   font-family: $global-font-family;
   line-height: 1.5;
 
-  background: url("{{ '/assets/images/background.jpg' | relative_url }}") no-repeat center center fixed;
-  background-size: cover;
-
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
