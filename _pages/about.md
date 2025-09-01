@@ -24,8 +24,13 @@ Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing
 News and Events
 ======
 (from 2023)
+- 2025 One paper was accepted by ACM MM 2025
+- 2025 One paper was accepted by ICML 2025
+- 2025 Two papers were accepted by IJCV
+- 2025 Two papers were accepted by IEEE TPAMI
+- 2025 Three papers were accepted by ICCV 2025
 - 2024.7 One paper was accepted by ACM MM 2024
-- 2024.7 One paper was accepted by ECCV2024
+- 2024.7 One paper was accepted by ECCV 2024
 - 2024.6 I was named CVPR 2024 Outstanding Reviewer
 - 2024.2 Two papers were accepted by CVPR2024
 - 2023.12 Two papers were accepted by AAAI24
@@ -40,90 +45,155 @@ Recent Publications
 ------
 See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=32d6xfEAAAAJ&sortby=pubdate) for more information.
 
+
+
+2025
+------
+1. **L Zhu**, R Liu, X Wang, L Wang, H Huang. Revealing Latent Information: A Physics-inspired Self-supervised Pre-training Framework for Noisy and Sparse Events. In _ACM International Conference on Multimedia (ACM MM), 2025._ **(CCF-A).**
+
+2. X Ma, L Wang, X Wang, W Song, Q Sun, **L Zhu**, H Huang. Learning Refractive-Diffractive Optics with Unidirectional Transformer for Large Field-of-View Imaging. _International Journal of Computer Vision, 2025._ **(CCF-A).**
+
+3. Y Zhu, X Wang, C Li, B Jiang, **L Zhu**, Z Huang, Y Tian, J Tang. CRSOT: Cross-resolution Object Tracking using Unaligned Frame and Event Cameras. _IEEE Transactions on Multimedia, 2025._ **(CCF-B).**
+
+4. X Wang, C Wang, S Wang, X Wang, Z Zhao, **L Zhu**, B Jiang. MambaEVT: Event Stream-based Visual Object Tracking using State Space Model. _IEEE Transactions on Circuits and Systems for Video Technology, 2025._ **(CCF-B).**
+
+5. **L Zhu**, X Ma, X Wang, L Wang, H Huang. EvFocus: Learning to Reconstruct Sharp Images from Out-of-Focus Event Streams. In _International Conference on Machine Learning (ICML), 2025._ **(CCF-A).**
+
+6. H Feng, L Wang, Y Huang, T Li, **L Zhu**, H Huang. YOND: Practical Blind Raw Image Denoising Free from Camera-Specific Data Dependency. _arXiv preprint arXiv:2506.03645, 2025._
+
+7. T Li, L Wang, H Feng, **L Zhu**, H Huang. PDE: Gene Effect Inspired Parameter Dynamic Evolution for Low-light Image Enhancement. _arXiv preprint arXiv:2505.09196, 2025._
+
+8. X Wang, Y Rong, Z Wu, **L Zhu**, B Jiang, J Tang, Y Tian. SSTFormer: Bridging Spiking Neural Network and Memory Support Transformer for Frame-Event based Recognition. _IEEE Transactions on Cognitive and Developmental Systems, 2025._ **(CCF-C).**
+
+9. M Geng, L Wang, **L Zhu**, W Zhang, R Xiong, Y Tian. Towards Ultra High-speed Hyperspectral Imaging by Integrating Compressive and Neuromorphic Sampling. _International Journal of Computer Vision 133 (4), 1587–1610, 2025._ **(CCF-A).**
+
+10. S Wang, X Wang, C Wang, L Jin, **L Zhu**, B Jiang, Y Tian, J Tang. Event Stream-based Visual Object Tracking: HDETrack V2 and A High-Definition Benchmark. _arXiv preprint arXiv:2502.05574, 2025._
+
+11. T Wang, **L Zhu**, H Huang. Enhancing Real-Time Object Detection with Optical Flow-Guided Streaming Perception. _IEEE Transactions on Circuits and Systems for Video Technology, 2025._ **(CCF-B).**
+
+12. Y Wang, H Wang, L Wang, X Wang, **L Zhu**, W Lu, H Huang. Complementary Advantages: Exploiting Cross-field Frequency Correlation for NIR-assisted Image Denoising. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025._ **(CCF-A).**
+
+13. T Li, L Wang, Z Xu, **L Zhu**, W Lu, H Huang. Positive2Negative: Breaking the Information-lossy Barrier in Self-supervised Single Image Denoising. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025._ **(CCF-A).**
+
+14. X Wang, Y Jin, W Wu, W Zhang, **L Zhu**, B Jiang, Y Tian. Object Detection using Event Camera: A MoE Heat Conduction based Detector and A New Benchmark Dataset. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025._ **(CCF-A).**
+
+15. T Li, L Wang, H Feng, **L Zhu**, W Lu, H Huang. Rethinking Model Redundancy for Low-light Image Enhancement. _arXiv preprint arXiv:2412.16459, 2025._
+
+---
+
 2024
 ------
-1. **L Zhu**, K Jia, Y Zhao, Y Qi, L Wang, H Huang. SpikeNeRF: Learning Neural Radiance Fields from Continuous Spike Stream. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+16. **L Zhu**, K Jia, Y Zhao, Y Qi, L Wang, H Huang. SpikeNeRF: Learning Neural Radiance Fields from Continuous Spike Stream. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
-1. M Geng, **L Zhu\***, L Wang, W Zhang, R Xiong, Y Tian\*. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+2. M Geng, **L Zhu\***, L Wang, W Zhang, R Xiong, Y Tian\*. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
-1. X Wang, L Wang, X Ma, M Zhang, **L Zhu**, H Huang. In2SET: Intra-Inter Similarity Exploiting Transformer for Dual-Camera Compressive Hyperspectral Imaging. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+3. X Wang, L Wang, X Ma, M Zhang, **L Zhu**, H Huang. In2SET: Intra-Inter Similarity Exploiting Transformer for Dual-Camera Compressive Hyperspectral Imaging. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
 
-1. H Liu, S Peng, **L Zhu**, Y Chang, H Zhou, L Yan. Seeing Motion at Nighttime with an Event Camera. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+4. H Liu, S Peng, **L Zhu**, Y Chang, H Zhou, L Yan. Seeing Motion at Nighttime with an Event Camera. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
 
-1. X Wang, S Wang, C Tang, **L Zhu**, B Jiang, Y Tian, J Tang. Event Stream-based Visual Object Tracking: A High-Resolution Benchmark Dataset and A Novel Baseline. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+5. X Wang, S Wang, C Tang, **L Zhu**, B Jiang, Y Tian, J Tang. Event Stream-based Visual Object Tracking: A High-Resolution Benchmark Dataset and A Novel Baseline. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
   
-1. M Zhang, L Wang, **L Zhu**, H Huang. Learning a physics-based filter attachment for hyperspectral imaging with RGB cameras. _Neurocomputing, 2024._ **(CCF-C).**
+6. M Zhang, L Wang, **L Zhu**, H Huang. Learning a Physics-based Filter Attachment for Hyperspectral Imaging with RGB Cameras. _Neurocomputing, 2024._ **(CCF-C).**
 
-1. **L Zhu**, X Chen, X Wang, H Huang. Finding Visual Saliency in Continuous Spike Stream. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024._ **(CCF-A).**
+7. **L Zhu**, X Chen, X Wang, H Huang. Finding Visual Saliency in Continuous Spike Stream. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024._ **(CCF-A).**
 
-1. X Wang, Z Wu, B Jiang, Z Bao, **L Zhu**, G Li, Y Wang, Y Tian. Hardvs: Revisiting human activity recognition with dynamic vision sensors. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024._ **(CCF-A).**
+8. X Wang, Z Wu, B Jiang, Z Bao, **L Zhu**, G Li, Y Wang, Y Tian. Hardvs: Revisiting Human Activity Recognition with Dynamic Vision Sensors. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024._ **(CCF-A).**
 
-1. Y Zhu, X Wang, C Li, B Jiang, **L Zhu**, Z Huang, Y Tian, J Tang. CRSOT: Cross-Resolution Object Tracking using Unaligned Frame and Event Cameras. _arXiv preprint, 2024._
+9. Y Zhu, X Wang, C Li, B Jiang, **L Zhu**, Z Huang, Y Tian, J Tang. CRSOT: Cross-Resolution Object Tracking using Unaligned Frame and Event Cameras. _arXiv preprint, 2024._
+
+10. **L Zhu**, W Yan, Y Chang, Y Tian, H Huang. Simultaneous Learning Intensity and Optical Flow from High-speed Spike Stream. _IEEE Transactions on Circuits and Systems for Video Technology, 2024._ **(CCF-B).**
+
+11. Y Qi, **L Zhu**, Y Zhao, N Bao, J Li. Deblurring Neural Radiance Fields with Event-driven Bundle Adjustment. In _ACM International Conference on Multimedia (ACM MM), 2024._ **(CCF-A).**
+
+12. **L Zhu**, X Chen, L Wang, X Wang, Y Tian, H Huang. Continuous-time Object Segmentation using High Temporal Resolution Event Camera. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024._ **(CCF-A).**
+
+13. M Geng, L Wang, **L Zhu**, W Zhang, R Xiong, Y Tian. Event-enhanced Snapshot Mosaic Hyperspectral Frame Deblurring. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024._ **(CCF-A).**
+
+14. X Wang, Y Rong, F Wang, J Li, **L Zhu**, B Jiang, Y Wang. Event Stream-based Sign Language Translation: A High-definition Benchmark Dataset and A New Algorithm. _arXiv preprint arXiv:2408.10488, 2024._
+
+15. X Wang, S Wang, P Shao, B Jiang, **L Zhu**, Y Tian. Event Stream-based Human Action Recognition: A High-definition Benchmark Dataset and Algorithms. _arXiv preprint arXiv:2408.09764, 2024._
+
+16. Y Qi, J Li, Y Zhao, Y Zhang, **L Zhu**. ENeRF: Efficient Event-Enhanced Neural Radiance Fields from Blurry Images. _arXiv preprint arXiv:2408.01840, 2024._
+
+17. D Gu, J Li, **L Zhu**. Learning Adaptive Parameter Representation for Event-based Video Reconstruction. _IEEE Signal Processing Letters, 2024._ **(CCF-C).**
+
+18. T Li, H Feng, L Wang, **L Zhu**, Z Xiong, H Huang. Stimulating the Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024._ **(CCF-A).**
+
+19. **L Zhu**, Y Zheng, Y Zhang, X Wang, L Wang, H Huang. Temporal Residual Guided Diffusion Framework for Event-Driven Video Reconstruction. In _European Conference on Computer Vision (ECCV), 2024 (Oral)._ **(CCF-B).**
+
+20. P Zhang, **L Zhu**, L Wang, H Huang. Unifying Event-based Flow, Stereo and Depth Estimation via Feature Similarity Matching. _arXiv preprint arXiv:2407.21735, 2024._
+
+21. M Yan, L Wang, **L Zhu**, H Huang. Exploiting Frequency Correlation for Hyperspectral Image Reconstruction. _arXiv preprint arXiv:2406.00683, 2024._
+
+22. J Lian, L Wang, **L Zhu**, R Dian, Z Xiong, H Huang. Physics-Inspired Degradation Models for Hyperspectral Image Fusion. _arXiv preprint arXiv:2402.02411, 2024._
+
+23. D Gu, J Li, **L Zhu**, Y Zhang, JS Ren. Reliable Event Generation with Invertible Conditional Normalizing Flow. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 46 (2), 927–943, 2024._ **(CCF-A).**
 
 2023
 ------
-1. Daxin Gu, Jia Li\*, **Lin Zhu\***, Yu Zhang, Jimmy S. Ren. Reliable Event Generation with Invertible Conditional Normalizing Flow. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2023._ **(CCF-A).**
+39. H Feng, L Wang, Y Huang, Y Wang, **L Zhu**, H Huang. Physics-guided Noise Neural Proxy for Practical Low-light Raw Image Denoising. _arXiv preprint arXiv:2310.09126, 2023._ **(Preprint).**
 
-1. **Lin Zhu**, Yunlong Zheng, Mengyue Geng, Lizhi Wang, Hua Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM Multimedia (ACM MM) 2023._ **(CCF-A).**
+2. X Wang, J Li, **L Zhu**, Z Zhang, Z Chen, X Li, Y Wang, Y Tian, F Wu. Visevent: Reliable Object Tracking via Collaboration of Frame and Event Flows. _IEEE Transactions on Cybernetics, 54 (3), 1997–2010, 2023._ **(CCF-B).**
 
-1. Yunshan Qi, **Lin Zhu\***, Yu Zhang, Jia Li\*. E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images. In _International Conference on Computer Vision (ICCV), 2023._ **(CCF-A).**
+3. Y Chang, Y Guo, Y Ye, C Yu, **L Zhu**, X Zhao, L Yan, Y Tian. Unsupervised Deraining: Where Asymmetric Contrastive Learning Meets Self-similarity. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 46 (5), 2638–2657, 2023._ **(CCF-A).**
 
-1. X Wang, J Li, **L Zhu**, Z Zhang, Z Chen, X Li, Y Wang, Y Tian, F Wu. Visevent: Reliable object tracking via collaboration of frame and event flows. IEEE Transactions on Cybernetics, 2023. **(CCF-B).**
+4. **L Zhu**, Y Zheng, M Geng, L Wang, H Huang. Recurrent Spike-based Image Restoration under General Illumination. In _ACM International Conference on Multimedia (ACM MM), 2023._ **(CCF-A).**
 
-1. Y Chang, Y Guo, Y Ye, C Yu, **L Zhu**, X Zhao, L Yan, Y Tian. Unsupervised deraining: Where asymmetric contrastive learning meets self-similarity. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2023._ **(CCF-A).**
+5. X Jiang, **L Zhu**, Y Hou, H Tian. Mirror Complementary Transformer Network for RGB-thermal Salient Object Detection. _IET Computer Vision, 2023._ **(CCF-C).**
 
-1. X Jiang, **L Zhu**, Y Hou, H Tian. Mirror complementary transformer network for RGB-thermal salient object detection. _IET Comput. Vis., 2023._ **(CCF-C).**
+6. B Jiang, C Yuan, X Wang, Z Bao, **L Zhu**, Y Tian, J Tang. Point-voxel Absorbing Graph Representation Learning for Event Stream based Recognition. _arXiv preprint arXiv:2306.05239, 2023._ **(Preprint).**
 
-1. P Zhu, X Wang, **L Zhu**, Z Sun, WS Zheng, Y Wang, C Chen. Prompt-based learning for unpaired image captioning. _IEEE Transactions on Multimedia, 2023._ **(CCF-B).**
+7. T Huang, Y Zheng, Z Yu, R Chen, Y Li, R Xiong, L Ma, J Zhao, S Dong, **L Zhu**, ... 1000× Faster Camera and Machine Vision with Ordinary Devices. _Engineering 25, 110–119, 2023._ **(CCF-None).**
 
-1. Tiejun Huang, Yajing Zheng, Zhaofei Yu, Rui Chen, Yuan Li, Ruiqin Xiong, Lei Ma, Junwei Zhao, Siwei Dong, **Lin Zhu**, Jianing Li, Shanshan Jia, Yihua Fu, Boxin Shi, Si Wu, Yonghong Tian. 1000× faster camera and machine vision with ordinary devices. _Engineering, 2023._
+8. P Zhu, X Wang, **L Zhu**, Z Sun, W-S Zheng, Y Wang, C Chen. Prompt-based Learning for Unpaired Image Captioning. _IEEE Transactions on Multimedia, 26, 379–393, 2023._ **(CCF-B).**
 
-1. B Jiang, C Yuan, X Wang, Z Bao, **L Zhu**, B Luo. Point-voxel absorbing graph representation learning for event stream based recognition. _arXiv preprint, 2023._
+9. Y Qi, **L Zhu**, Y Zhang, J Li. E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images. In _IEEE/CVF International Conference on Computer Vision (ICCV), 2023._ **(CCF-A).**
 
-1. X Wang, Z Wu, Y Rong, **L Zhu**, B Jiang, J Tang, Y Tian. SSTFormer: bridging spiking neural network and memory support transformer for frame-event based recognition. _arXiv preprint, 2023._
+10. C Tang, X Wang, J Huang, B Jiang, **L Zhu**, J Zhang, Y Wang, Y Tian. Revisiting Color-event based Tracking: A Unified Network, Dataset, and Metric. _arXiv preprint arXiv:2211.11010, 2023._ **(Preprint).**
 
-1. X Wang, S Wang, C Tang, **L Zhu**, B Jiang, Y Tian, J Tang. Event stream-based visual object tracking: A high-resolution benchmark dataset and a novel baseline. _arXiv preprint, 2023._
+---
 
-2022 and before
+ Before 2022
 ------
-1. **Lin Zhu**, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. _IEEE Transactions on Pattern Analysis and Machine Intelligence. (IEEE TPAMI), 2022._ **(CCF-A).**
+49. X Xiang, **L Zhu**, J Li, Y Tian, T Huang. Temporal Up-sampling for Asynchronous Events. In _IEEE International Conference on Multimedia and Expo (ICME), 2022, 01–06._ **(CCF-B).**
 
-1. **L Zhu**, Y Tian. Research on visual reconstruction methods of retina-like vision sensors. _SCIENTIA SINICA Informationis_, 2022. **(中文CCF-A).**
+2. Y Wang, J Li, **L Zhu**, X Xiang, T Huang, Y Tian. Learning Stereo Depth Estimation with Bio-inspired Spike Cameras. In _IEEE International Conference on Multimedia and Expo (ICME), 2022, 1–6._ **(CCF-B).**
 
-1. **Lin Zhu**, Xiao Wang, Yi Chang, Jianing Li, Tiejun Huang, Yonghong Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
+3. J Li, X Wang, **L Zhu**, J Li, T Huang, Y Tian. Retinomorphic Object Detection in Asynchronous Visual Streams. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 36 (2), 1332–1340, 2022._ **(CCF-A).**
 
-1. Y Ye, C Yu, Y Chang, **L Zhu**, XL Zhao, L Yan, Y Tian. Unsupervised deraining: Where contrastive learning meets self-similarity. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
-   
-1. Jianing Li, Jia Li, **Lin Zhu**, Xijie Xiang, Tiejun Huang, YonghongTian. Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection. _IEEE Transactions on Image Processing (IEEE TIP), 2022._ **(CCF-A)**
-   
-1. Jianing Li, Xiao Wang, **Lin Zhu**, Tiejun Huang, Yonghong Tian. Retinomorphic Object Detection in Asynchronous Visual Streams. In _Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2022._ **(Oral, CCF-A).**
+4. J Li, J Li, **L Zhu**, X Xiang, T Huang, Y Tian. Asynchronous Spatio-temporal Memory Network for Continuous Event-based Object Detection. _IEEE Transactions on Image Processing (TIP), 31, 2975–2987, 2022._ **(CCF-A).**
 
-1. X Xiang, **L Zhu**, J Li, Y Wang, T Huang, Y Tian. Learning super-resolution reconstruction for high temporal resolution spike stream. _IEEE Transactions on Circuits and Systems for Video Technology, 2021._  **(CCF-B).**
+5. **L Zhu**, S Dong, J Li, T Huang, Y Tian. Ultra-high Temporal Resolution Visual Reconstruction from a Fovea-like Spike Camera via Spiking Neuron Model. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 45 (1), 1233–1249, 2022._ **(CCF-A).**
 
-1. X Xiang, **L Zhu**, J Li, Y Tian, T Huang. Temporal up-sampling for asynchronous events. _IEEE International Conference on Multimedia and Expo (ICME), 2022._ **(CCF-B).**
-   
-1. Y Wang, J Li, **L Zhu**, X Xiang, T Huang, Y Tian. Learning stereo depth estimation with bio-inspired spike cameras. _IEEE International Conference on Multimedia and Expo (ICME), 2022._ **(CCF-B).**
+6. Y Ye, C Yu, Y Chang, **L Zhu**, X-L Zhao, L Yan, Y Tian. Unsupervised Deraining: Where Contrastive Learning Meets Self-similarity. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
 
-1. C Tang, X Wang, J Huang, B Jiang, **L Zhu**, J Zhang, Y Wang, Y Tian. Revisiting color-event based tracking: A unified network, dataset, and metric. _arXiv preprint, 2022._
+7. **L Zhu**, X Wang, Y Chang, J Li, T Huang, Y Tian. Event-based Video Reconstruction via Potential-assisted Spiking Neural Network. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022._ **(CCF-A).**
 
-1. Zhaodong Kang, Jianing Li, **Lin Zhu**, Yonghong Tian. Retinomorphic Sensing: A Novel Paradigm for Future Multimedia Computing. In _Proceedings of ACM International Conference on Multimedia (ACM MM), 2021._ **(Oral, CCF-A).**
+1. X Jiang, **L Zhu**, H Tian. Learning Event Guided Network for Salient Object Detection. _Pattern Recognition Letters, 151, 317–324, 2021._ **(CCF-C).**
 
-1. Xiurong Jiang, **Lin Zhu**, Hui Tian. Learning event guided network for salient object detection. _Pattern Recognition Letters (PRL), 2021._ **(CCF-C).**
- 
-1. **Lin Zhu**, Jianing Li, Xiao Wang, Tiejun Huang, Yonghong Tian. NeuSpike-Net: High Speed Image Reconstruction via Bio-inspired Neuromorphic Cameras. In _International Conference on Computer Vision (ICCV), 2021._ **(CCF-A).**
+2. Z Kang, J Li, **L Zhu**, Y Tian. Retinomorphic Sensing: A Novel Paradigm for Future Multimedia Computing. In _Proceedings of the 29th ACM International Conference on Multimedia (ACM MM), 2021, 144–152._ **(CCF-A).**
 
-1. **Lin Zhu**, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian. Retina-Like Visual Image Reconstruction via Spiking Neural Model. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020._ **(Oral, CCF-A).**
+3. L Deng, Y Chen, Y Zhao, **L Zhu**, H-L Gong, L-J Guo, H-Y Zou. An Approach for Reflectance Anisotropy Retrieval from UAV-based Oblique Photogrammetry Hyperspectral Imagery. _International Journal of Applied Earth Observation and Geoinformation, 2021._ **(CCF-None).**
 
-1. **Lin Zhu**, Siwei Dong, Tiejun Huang, Yonghong Tian. Hybrid Coding of Spatiotemporal Spike Data for a Bio-inspired Camera. _IEEE Transactions on Circuits and Systems for Video Technology. (IEEE TCSVT), 2021._ **(CCF-B).**
+4. T Huang, **L Zhu**, Y Tian, Y Fu, J Li, S Dong, Y Wang. Spike Signal-based Display Method and System. _US Patent 10,937,132, 2021._ **(Patent).**
 
-1. **Lin Zhu**, Xiurong Jiang, Jianing Li, Yonghong Tian. Motion-aware Structured Matrix Factorization for Foreground Detection in Complex Scenes. _ACM Transactions on Multimedia Computing, Communications, and Applications. (ACM TOMM), 2020._ **(CCF-B).**
+5. L Deng, J Sun, Y Chen, H Lu, F Duan, **L Zhu**, T Fan. M2H-Net: A Reconstruction Method for Hyperspectral Remotely Sensed Imagery. _ISPRS Journal of Photogrammetry and Remote Sensing, 173, 323–348, 2021._ **(CCF-None).**
 
-1. Siwei Dong\#, **Lin Zhu\#**, Daoyuan Xu, Tiejun Huang, Yonghong Tian. An Efficient Coding Method for Spike Camera using Inter-spike Intervals. In _Data Compression Conference (DCC), 2019._ **(CCF-B).**
+6. **L Zhu**, J Li, X Wang, T Huang, Y Tian. NeuSpike-Net: High Speed Video Reconstruction via Bio-inspired Neuromorphic Cameras. In _IEEE/CVF International Conference on Computer Vision (ICCV), 2021._ **(CCF-A).**
 
-1. **L Zhu**, S Dong, T Huang, Y Tian. A retina-inspired sampling method for visual texture reconstruction. _IEEE International Conference on Multimedia and Expo (ICME), 2019._ **(CCF-B).** 
+7. **L Zhu**, X Jiang, J Li, Y Hao, Y Tian. Motion-aware Structured Matrix Factorization for Foreground Detection in Complex Scenes. _ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2021._ **(CCF-B).**
 
-1. **L Zhu**, Y Hao, Y Song. L1/2 norm and spatial continuity regularized low-rank approximation for moving object detection in dynamic background. _IEEE Signal Processing Letters, 2018._  **(CCF-C).** 
+1. **L Zhu**, S Dong, T Huang, Y Tian. Hybrid Coding of Spatiotemporal Spike Data for a Bio-inspired Camera. _IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 31 (7), 2837–2851, 2020._ **(CCF-B).**
 
-For more info
+2. **L Zhu**, S Dong, J Li, T Huang, Y Tian. Retina-like Visual Image Reconstruction via Spiking Neural Model. In _IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020._ **(CCF-A).**
+
+3. **L Zhu**, S Dong, J Li, T Huang, Y Tian. Learning Super-resolution Reconstruction for High Temporal Resolution Spike Stream. _IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 33 (1), 16–29, 2020._ **(CCF-B).**
+
+1. **L Zhu**, S Dong, T Huang, Y Tian. A Retina-inspired Sampling Method for Visual Texture Reconstruction. In _IEEE International Conference on Multimedia and Expo (ICME), 2019, 1432–1437._ **(CCF-B).**
+
+2. S Dong, **L Zhu**, D Xu, Y Tian, T Huang. An Efficient Coding Method for Spike Camera using Inter-spike Intervals. In _Data Compression Conference (DCC), 2019._ **(CCF-B).**
+
+3. **L Zhu**, Y Hao, Y Song. Norm and Spatial Continuity Regularized Low-Rank Approximation for Moving Object Detection in Dynamic Background. _IEEE Signal Processing Letters (SPL), 25 (1), 15–19, 2019._ **(CCF-C).**
+
 ------
 More info can be found in [中文介绍](https://cs.bit.edu.cn/szdw/jsml/fjs/7125f0050e1244779308fa53add3e3b8/index.htm).
