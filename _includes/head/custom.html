@@ -91,6 +91,22 @@
     padding-bottom: 0 !important;
   }
 </style>
+<style>
+/* 给正文区域加一个半透明底色，保证文字可读性 */
+.page__content {
+  background: rgba(255,255,255,0.85); /* 白底，85% 不透明 */
+  border-radius: 8px;                 /* 圆角，可选 */
+  padding: 1.5rem;                    /* 内边距，让文字不贴边 */
+}
+
+/* 如果标题也需要更醒目，可以加强标题颜色 */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #000 !important; /* 深色标题 */
+}
+</style>
 
 
 
