@@ -37,21 +37,32 @@
 
 <!-- end custom head snippets -->
 
-<!-- === Full-page background layer === -->
+<!-- === Full-page background with overlay, transparent content, fixed sitemap footer === -->
 <style>
   html, body { height: 100%; }
+
+  /* 背景图层 */
   body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url("{{ '/images/background.jpg' | relative_url }}") no-repeat center center / cover;
-    z-index: -1;
+    background: url("{{ '/assets/images/background.jpg' | relative_url }}") no-repeat center center / cover;
+    z-index: -2;
     opacity: 1;
     pointer-events: none;
-    will-change: transform;
   }
 
-  /* 让常见容器透明，不遮挡背景 */
+  /* 遮罩层，避免文字看不清 */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35); /* 黑色半透明，可改透明度 */
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  /* 常见容器透明，让背景透出来 */
   .initial-content,
   .page,
   .page__content,
@@ -59,7 +70,32 @@
   .sidebar {
     background: transparent !important;
   }
+
+  /* 全局 footer 默认透明（保留背景氛围） */
+  .site-footer {
+    background: transparent !important;
+  }
+
+  /* === 仅 sitemap 页面：恢复固定页脚 === */
+  body.layout--sitemap .site-footer,
+  body.layout--sitemap .page__footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.9) !important; /* 白色或半透明底 */
+    z-index: 1000;
+  }
+
+  /* 给 sitemap 内容留空间，避免被 footer 挡住 */
+  body.layout--sitemap .initial-content,
+  body.layout--sitemap .page,
+  body.layout--sitemap .page__content {
+    padding-bottom: 90px; /* 调整为你 footer 的实际高度 */
+  }
 </style>
+
 
 
 
