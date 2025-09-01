@@ -49,16 +49,6 @@
     pointer-events: none;
   }
 
-  /* 可选：半透明遮罩，提升可读性（同样只在非 sitemap 页面生效） */
-  body:not(.layout--sitemap)::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.35);
-    z-index: -1;
-    pointer-events: none;
-  }
-
   /* 非 sitemap 页面让常见容器透明，背景能透出 */
   body:not(.layout--sitemap) .initial-content,
   body:not(.layout--sitemap) .page,
