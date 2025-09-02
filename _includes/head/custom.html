@@ -170,23 +170,40 @@ img[alt="avatar"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 可选：柔和阴影 */
 }
 
-/* Publications 连续编号（仅作用于 .pubs 容器） */
-.pubs { counter-reset: pub; }
-.pubs li {
+/* ===== FINAL: Publications 连续编号（作用于 .pubs 容器内） ===== */
+.page__content .pubs { counter-reset: pub !important; }
+
+/* 隐藏原生编号/圆点，留出自定义序号空间 */
+.page__content .pubs ol,
+.page__content .pubs ul,
+.page__content .pubs ol.bibliography {
   list-style: none !important;
-  counter-increment: pub;
-  position: relative;
-  margin: 0.35em 0;
-  padding-left: 2.2em;
+  margin-left: 0 !important;
+  padding-left: 2.25em !important;
 }
-.pubs li::before {
+
+/* 每个 li 递增，同一个 .pubs 容器内跨所有列表持续计数 */
+.page__content .pubs li {
+  counter-increment: pub !important;
+  position: relative !important;
+  margin: 0.35em 0 !important;
+}
+
+/* 显示我们自己的数字（1. 2. 3. …） */
+.page__content .pubs li::before {
   content: counter(pub) ".";
   position: absolute;
   left: 0;
   width: 2em;
   text-align: right;
-  font-weight: 600;
-  color: #000; /* 深色底可改 #fff */
+  font-weight: 700;
+  color: #000;         /* 深色底可改 #fff */
+}
+
+/* 防止其它地方把有序列表强制成小圆点/decimal */
+.page__content .pubs ol > li::marker,
+.page__content .pubs ul > li::marker { 
+  content: "" !important;
 }
 
 
