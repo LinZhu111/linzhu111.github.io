@@ -170,30 +170,25 @@ img[alt="avatar"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 可选：柔和阴影 */
 }
 
-/* === Publications 连续编号（只作用于 .pubs 容器） === */
+/* Publications 连续编号（仅作用于 .pubs 容器） */
 .pubs { counter-reset: pub; }
-
-.pubs ol, .pubs ul {
-  list-style: none !important;   /* 隐藏浏览器自带编号 / 点 */
-  margin-left: 0;
-  padding-left: 2.2em;           /* 左侧留给自定义序号 */
-}
-
 .pubs li {
-  counter-increment: pub;        /* 每条 +1（跨年份也持续） */
+  list-style: none !important;
+  counter-increment: pub;
   position: relative;
   margin: 0.35em 0;
+  padding-left: 2.2em;
 }
-
 .pubs li::before {
   content: counter(pub) ".";
   position: absolute;
-  left: -2.2em;
+  left: 0;
   width: 2em;
   text-align: right;
   font-weight: 600;
-  color: #000;                   /* 深背景可改成 #fff */
+  color: #000; /* 深色底可改 #fff */
 }
+
 
   
 </style>
