@@ -118,29 +118,38 @@
     text-shadow: 0 0 4px rgba(0,0,0,0.6); /* 黑色柔光阴影，提升可读性 */
   }
 
-  /* === 顶部导航栏透明化（强制覆盖） === */
-  .masthead,
-  .masthead::before,
-  .site-header,
-  .site-header::before,
-  .site-nav,
-  .site-nav::before {
+  /* === 顶部导航完全透明（仅非 sitemap 页面） === */
+  body:not(.layout--sitemap) .masthead,
+  body:not(.layout--sitemap) .masthead::before,
+  body:not(.layout--sitemap) .masthead::after,
+  body:not(.layout--sitemap) .site-header,
+  body:not(.layout--sitemap) .site-header::before,
+  body:not(.layout--sitemap) .greedy-nav,
+  body:not(.layout--sitemap) .greedy-nav::before,
+  body:not(.layout--sitemap) .greedy-nav .visible-links,
+  body:not(.layout--sitemap) .greedy-nav .hidden-links {
     background: transparent !important;
     box-shadow: none !important;
     border: none !important;
+    border-bottom: 0 !important;  /* 去掉那条白线 */
   }
   
-  /* 去掉 masthead 内可能的边框线 */
-  .masthead,
-  .site-header {
-    border: 0 !important;
-  }
-  
-  /* 导航文字设为白色，并加黑色阴影增强可读性 */
-  .masthead a,
-  .site-nav a {
+  /* 链接/标题颜色（在透明顶栏上可读） */
+  body:not(.layout--sitemap) .greedy-nav a,
+  body:not(.layout--sitemap) .masthead a,
+  body:not(.layout--sitemap) .greedy-nav .site-title,
+  body:not(.layout--sitemap) .site-title a {
     color: #fff !important;
-    text-shadow: 0 0 4px rgba(0,0,0,0.6);
+    text-shadow: 0 0 4px rgba(0,0,0,0.55);
+  }
+  
+  /* 如果有“菜单按钮/更多按钮”图标，也一起变亮 */
+  body:not(.layout--sitemap) .greedy-nav__toggle,
+  body:not(.layout--sitemap) .greedy-nav .menu {
+    background: transparent !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: 0 !important;
   }
 
 
