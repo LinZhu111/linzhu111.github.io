@@ -173,11 +173,7 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 
 2. Z Kang, J Li, **L Zhu**, Y Tian. Retinomorphic Sensing: A Novel Paradigm for Future Multimedia Computing. In _Proceedings of the 29th ACM International Conference on Multimedia (ACM MM), 2021, 144–152._ **(CCF-A).**
 
-3. L Deng, Y Chen, Y Zhao, **L Zhu**, H-L Gong, L-J Guo, H-Y Zou. An Approach for Reflectance Anisotropy Retrieval from UAV-based Oblique Photogrammetry Hyperspectral Imagery. _International Journal of Applied Earth Observation and Geoinformation, 2021._ **(CCF-None).**
-
 4. T Huang, **L Zhu**, Y Tian, Y Fu, J Li, S Dong, Y Wang. Spike Signal-based Display Method and System. _US Patent 10,937,132, 2021._ **(Patent).**
-
-5. L Deng, J Sun, Y Chen, H Lu, F Duan, **L Zhu**, T Fan. M2H-Net: A Reconstruction Method for Hyperspectral Remotely Sensed Imagery. _ISPRS Journal of Photogrammetry and Remote Sensing, 173, 323–348, 2021._ **(CCF-None).**
 
 6. **L Zhu**, J Li, X Wang, T Huang, Y Tian. NeuSpike-Net: High Speed Video Reconstruction via Bio-inspired Neuromorphic Cameras. In _IEEE/CVF International Conference on Computer Vision (ICCV), 2021._ **(CCF-A).**
 
