@@ -170,53 +170,36 @@ img[alt="avatar"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 可选：柔和阴影 */
 }
 
-/* ===== Publications 连续编号（Grid 对齐版，仅 .pubs 内） ===== */
+/* === Publications 连续编号：使用 ::marker，自动换行对齐 === */
 .page__content .pubs { counter-reset: pub !important; }
 
-/* 去掉原生编号/缩进 */
-.page__content .pubs ol,
-.page__content .pubs ul {
-  list-style: none !important;
-  margin: 0 !important;
+/* 让列表使用浏览器的外置标号布局（不要隐藏 list-style） */
+.page__content .pubs ul,
+.page__content .pubs ol {
+  list-style: decimal outside !important;  /* 用外置标号，悬挂缩进由浏览器处理 */
+  margin: 0 0 0 1.75em !important;         /* 左边距可按需调 */
   padding: 0 !important;
 }
 
-/* 两列网格：左列数字，右列正文；多行自动对齐 */
+/* 每条递增计数 */
 .page__content .pubs li {
   counter-increment: pub !important;
-  display: grid !important;
-  grid-template-columns: 3.8ch 1fr !important;  /* 数字列宽，2位数够用；3位数可调到 4.4ch */
-  column-gap: 0.6ch !important;
-  align-items: start !important;                /* 顶部对齐，避免上下不齐 */
   margin: 0.35em 0 !important;
-
-  /* 清理旧规则的影响 */
-  position: static !important;
-  padding: 0 !important;
+  word-break: normal !important;           /* 避免一字一行 */
+  overflow-wrap: anywhere;                 /* 长单词必要时换行 */
 }
 
-/* 数字：放左列，右对齐；用等宽数字 */
-.page__content .pubs li::before {
-  content: counter(pub) "." !important;
-  grid-column: 1 !important;
-  display: block !important;                    /* 块级，避免基线偏差 */
-  text-align: right !important;
-  font-variant-numeric: tabular-nums !important;
+/* 用 ::marker 输出我们自己的编号（连续） */
+.page__content .pubs li::marker {
+  content: counter(pub) ". " !important;   /* 1. 2. 3. … */
   font-weight: 700;
-  line-height: 1.6;                             /* 与正文行高一致，观感更稳 */
-  color: #000;                                  /* 深色背景可改 #fff */
+  font-variant-numeric: tabular-nums;      /* 等宽数字，齐整 */
+  color: #000;                              /* 深底可改 #fff */
 }
 
-/* 保险：隐藏浏览器自带的 marker，避免双编号 */
-.page__content .pubs ol > li::marker,
-.page__content .pubs ul > li::marker {
-  content: "" !important;
-}
+/* 保险：若主题给 ul 强制了小点样式，覆盖成十进制数字 */
+.page__content .pubs ul { list-style-type: decimal !important; }
 
-/* 小屏可适当放宽数字列 */
-@media (max-width: 640px){
-  .page__content .pubs li { grid-template-columns: 4.2ch 1fr !important; }
-}
 
 
 
