@@ -161,6 +161,15 @@ img[alt="avatar"] {
   box-shadow: none !important;   /* 可选：去掉阴影 */
 }
 
+
+  /* === 头像改为圆角矩形（柔和一些） === */
+.sidebar img.avatar,
+.author__avatar img {
+  border-radius: 12px !important;   /* 圆角大小，可调 8px~20px */
+  border: 3px solid #fff;           /* 白色边框 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 可选：柔和阴影 */
+}
+
 </style>
 
 
