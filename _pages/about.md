@@ -17,7 +17,7 @@ Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5
 
 Research Interests
 ======
-Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
+AI4Education, Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
 招收25届研究生，欢迎提前联系！
 
