@@ -40,6 +40,66 @@
 <!-- end custom head snippets -->
 
 
+<!-- === Custom style for background, content, sitemap, and publications === -->
+<style>
+  html, body { height: 100%; }
+
+  /* === 非 sitemap 页面：启用背景 === */
+  body:not(.layout--sitemap)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("{{ '/images/background.jpg' | relative_url }}") no-repeat center center / cover;
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  /* 非 sitemap 页面容器透明，让背景透出 */
+  body:not(.layout--sitemap) .initial-content,
+  body:not(.layout--sitemap) .page,
+  body:not(.layout--sitemap) .masthead,
+  body:not(.layout--sitemap) .sidebar,
+  body:not(.layout--sitemap) .site-footer {
+    background: transparent !important;
+  }
+
+  /* === 正文区域：白底黑字，保证可读性 === */
+  .page__content {
+    background: #fff !important;   /* 白底 */
+    color: #000 !important;        /* 黑字 */
+    border-radius: 8px;            /* 圆角，可选 */
+    padding: 1.5rem;               /* 内边距 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* 阴影，可选 */
+  }
+
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4 {
+    color: #000 !important;
+  }
+
+  /* === sitemap 页面：禁用背景，恢复默认样式 === */
+  body.layout--sitemap::before {
+    content: none !important;
+  }
+  body.layout--sitemap .initial-content,
+  body.layout--sitemap .page,
+  body.layout--sitemap .page__content,
+  body.layout--sitemap .masthead,
+  body.layout--sitemap .sidebar,
+  body.layout--sitemap .site-footer {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* === Publications & 所有有序列表：恢复顺序编号 === */
+  .page__content ol,
+  .page__content ol.bibliography {
+    list-style: decimal !important;
+    margin-left: 1.5em;
+  }
+</style>
 
 
 
