@@ -179,7 +179,7 @@ img[alt="avatar"] {
 .page__content .pubs ol.bibliography {
   list-style: none !important;
   margin-left: 0 !important;
-  padding-left: 1em !important;
+  padding-left: 2.25em !important;
 }
 
 /* 每个 li 递增，同一个 .pubs 容器内跨所有列表持续计数 */
@@ -206,6 +206,39 @@ img[alt="avatar"] {
   content: "" !important;
 }
 
+/* === 修复 .pubs 序号与文字重叠 === */
+.page__content .pubs li{
+  position: relative !important;
+  counter-increment: pub !important;
+  margin: 0.35em 0 !important;
+
+  /* 给序号留更宽的空间：用 ch 单位随位数自适应 */
+  padding-left: 3.5ch !important;                 /* 3.5~4ch 都可 */
+}
+
+.page__content .pubs li::before{
+  content: counter(pub) ".";
+  position: absolute;
+  left: 0;
+  width: 3ch;                                     /* 序号区域宽度 */
+  text-align: right;
+  font-weight: 700;
+  color: #000;                                    /* 深底用 #fff */
+  font-variant-numeric: tabular-nums;             /* 等宽数字，齐整 */
+  line-height: 1.4;
+}
+
+/* 保险：移除原生 marker，避免双编号 */
+.page__content .pubs ol > li::marker,
+.page__content .pubs ul > li::marker { 
+  content: "" !important;
+}
+
+/* （可选）小屏上再放宽一点避免挤压 */
+@media (max-width: 640px){
+  .page__content .pubs li{ padding-left: 4ch !important; }
+  .page__content .pubs li::before{ width: 3.5ch; }
+}
 
   
 </style>
