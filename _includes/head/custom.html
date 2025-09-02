@@ -39,11 +39,9 @@
 
 <!-- end custom head snippets -->
 
-<!-- === Final custom style: background + sitemap restore + frosted content + frosted sidebar === -->
+<!-- === Full-page background for all pages EXCEPT sitemap + frosted content === -->
 <style>
-  html, body { height: 100%; }
-
-  /* 1) 背景：仅非 sitemap 页面启用 */
+  /* 仅非 sitemap 页面启用背景 */
   body:not(.layout--sitemap)::before {
     content: "";
     position: fixed;
@@ -53,25 +51,34 @@
     pointer-events: none;
   }
 
-  /* 可选：半透明遮罩，提升对比度 */
-  body:not(.layout--sitemap)::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.35);
-    z-index: -1;
-    pointer-events: none;
-  }
-
   /* 非 sitemap 页面让常见容器透明，背景透出 */
   body:not(.layout--sitemap) .initial-content,
   body:not(.layout--sitemap) .page,
+  body:not(.layout--sitemap) .page__content,
   body:not(.layout--sitemap) .masthead,
+  body:not(.layout--sitemap) .sidebar,
   body:not(.layout--sitemap) .site-footer {
     background: transparent !important;
   }
 
-  /* 2) sitemap 页面：恢复默认（无背景/不透明/不改定位） */
+  /* === 正文：毛玻璃（仅非 sitemap 页面） === */
+  body:not(.layout--sitemap) .page__content {
+    background: rgba(255, 255, 255, 0.85) !important; /* 半透明白底 */
+    backdrop-filter: blur(8px);                       /* 毛玻璃模糊 */
+    -webkit-backdrop-filter: blur(8px);               /* Safari 兼容 */
+    color: #000 !important;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  }
+  body:not(.layout--sitemap) .page__content h1,
+  body:not(.layout--sitemap) .page__content h2,
+  body:not(.layout--sitemap) .page__content h3,
+  body:not(.layout--sitemap) .page__content h4 {
+    color: #000 !important;
+  }
+
+  /* === sitemap 页面：严格恢复主题默认（不套背景/不透明/不改定位） === */
   body.layout--sitemap::before,
   body.layout--sitemap::after {
     content: none !important;
@@ -97,44 +104,7 @@
   body.layout--sitemap .page__content {
     padding-bottom: 0 !important;
   }
-
-  /* 3) 正文区域：毛玻璃效果 */
-  body:not(.layout--sitemap) .page__content {
-    background: rgba(255, 255, 255, 0.85) !important;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    color: #000 !important;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  }
-  body:not(.layout--sitemap) .page__content h1,
-  body:not(.layout--sitemap) .page__content h2,
-  body:not(.layout--sitemap) .page__content h3,
-  body:not(.layout--sitemap) .page__content h4 {
-    color: #000 !important;
-  }
-
-  /* 4) Sidebar：毛玻璃效果 */
-  body:not(.layout--sitemap) .sidebar {
-    background: rgba(255, 255, 255, 0.85) !important;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    color: #000 !important;
-    border-radius: 8px;
-    padding: 1rem;
-  }
-  body:not(.layout--sitemap) .sidebar h1,
-  body:not(.layout--sitemap) .sidebar h2,
-  body:not(.layout--sitemap) .sidebar h3,
-  body:not(.layout--sitemap) .sidebar h4,
-  body:not(.layout--sitemap) .sidebar p,
-  body:not(.layout--sitemap) .sidebar li,
-  body:not(.layout--sitemap) .sidebar a {
-    color: #000 !important;
-  }
 </style>
-
 
 
 
