@@ -152,32 +152,6 @@
     border: 0 !important;
   }
 
-  /* === About 页面论文连续编号 === */
-  body.page-about .page__content { counter-reset: pub; }
-
-  body.page-about .page__content ol,
-  body.page-about .page__content ul {
-    list-style: none !important;
-    margin-left: 0;
-    padding-left: 2.2em;
-  }
-
-  body.page-about .page__content li {
-    counter-increment: pub;
-    position: relative;
-    margin: 0.35em 0;
-  }
-
-  body.page-about .page__content li::before {
-    content: counter(pub) ".";
-    position: absolute;
-    left: -2.2em;
-    width: 2em;
-    text-align: right;
-    font-weight: 600;
-    color: #000;   /* 如果背景是深色可以改成 #fff */
-  }
-
 </style>
 
 
