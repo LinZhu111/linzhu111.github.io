@@ -118,6 +118,24 @@
     text-shadow: 0 0 4px rgba(0,0,0,0.6); /* 黑色柔光阴影，提升可读性 */
   }
 
+  /* === 顶部导航栏透明化 === */
+  .masthead,
+  .masthead .site-header,
+  .masthead .site-nav,
+  .masthead .site-nav .trigger,
+  .site-header,
+  .site-nav {
+    background: transparent !important;
+    box-shadow: none !important;  /* 去掉可能的阴影线条 */
+  }
+  
+  /* 保证导航文字颜色足够清晰（白色+阴影） */
+  .masthead a,
+  .site-nav a {
+    color: #fff !important;   /* 白色文字 */
+    text-shadow: 0 0 4px rgba(0,0,0,0.6); /* 黑色柔光阴影，增强对比 */
+  }
+
 </style>
 
 
