@@ -117,37 +117,6 @@
     text-shadow: 0 0 4px rgba(255,255,255,0.9);
   }
 
-
-  /* === Sidebar 清晰度优化补丁 === */
-  body:not(.layout--sitemap) .sidebar {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    /* 确保没有会使字发灰的属性 */
-    opacity: 1;
-    filter: none;
-    transform: none;
-  }
-  
-  body:not(.layout--sitemap) .sidebar,
-  body:not(.layout--sitemap) .sidebar p,
-  body:not(.layout--sitemap) .sidebar li,
-  body:not(.layout--sitemap) .sidebar a {
-    color: #111 !important;
-    text-shadow: none;
-  }
-  
-  body:not(.layout--sitemap) .sidebar h1,
-  body:not(.layout--sitemap) .sidebar h2,
-  body:not(.layout--sitemap) .sidebar h3,
-  body:not(.layout--sitemap) .sidebar h4 {
-    color: #000 !important;
-    font-weight: 700;
-    text-shadow: none;
-  }
-
 </style>
 
 
