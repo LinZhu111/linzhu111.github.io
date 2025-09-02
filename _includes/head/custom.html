@@ -40,31 +40,22 @@
 <!-- end custom head snippets -->
 
 
-<!-- === Clean replacement: background (non-sitemap only) + solid content + stable sitemap + forced numbering === -->
+<!-- === FINAL: background (non-sitemap) + solid content + stable sitemap + continuous publications numbering === -->
 <style>
   html, body { height: 100%; }
 
-  /* 仅非 sitemap 页面启用全屏背景（sitemap 完全排除） */
+  /* 1) 背景：仅非 sitemap 页面启用（彻底排除 sitemap） */
   body:not(.layout--sitemap)::before {
     content: "";
     position: fixed;
     inset: 0;
-    /* ↓ 按你的路径修改：/images 或 /assets/images */
     background: url("{{ '/images/background.jpg' | relative_url }}") no-repeat center center / cover;
     z-index: -2;
     pointer-events: none;
   }
 
-  /* 非 sitemap 页面：让外围容器透明，以便看见背景 */
-  body:not(.layout--sitemap) .initial-content,
-  body:not(.layout--sitemap) .page,
-  body:not(.layout--sitemap) .masthead,
-  body:not(.layout--sitemap) .sidebar,
-  body:not(.layout--sitemap) .site-footer {
-    background: transparent !important;
-  }
-
-  /* 正文区：白底黑字（所有页面），保证可读性 */
+  /* 不再改 masthead/sidebar/footer 的背景，避免影响主题行为 */
+  /* 正文区域：白底黑字，保证可读性（所有页面统一） */
   .page__content {
     background: #fff !important;
     color: #000 !important;
@@ -77,9 +68,8 @@
   .page__content h3,
   .page__content h4 { color: #000 !important; }
 
-  /* === Sitemap 页面：完全恢复主题默认（不使用背景、不透明、不改定位） === */
+  /* 2) SITEMAP：严格恢复原样（无背景、不改定位） */
   body.layout--sitemap::before { content: none !important; }
-
   body.layout--sitemap .initial-content,
   body.layout--sitemap .page,
   body.layout--sitemap .page__content,
@@ -90,53 +80,42 @@
     background: #fff !important;
     color: #000 !important;
   }
-
-  /* 撤销任何可能遗留的 footer 定位改动（确保 sitemap 不“乱动”） */
   body.layout--sitemap .site-footer,
   body.layout--sitemap .page__footer {
-    position: static !important;
-    left: auto; right: auto; bottom: auto; width: auto;
-    z-index: auto;
+    position: static !important;   /* 撤销任何固定/粘底尝试 */
+    left: auto; right: auto; bottom: auto; width: auto; z-index: auto;
   }
   body.layout--sitemap .initial-content,
   body.layout--sitemap .page,
   body.layout--sitemap .page__content {
-    padding-bottom: 0 !important;
+    padding-bottom: 0 !important;  /* 撤销可能留的底部间距 */
   }
 
-  /* === Publications / 有序列表：用 CSS 计数器强制顺序编号 ===
-     不依赖 <ol reversed> 或主题样式，按 DOM 顺序 1,2,3... 显示 */
-  .page__content ol.bibliography,
-  .page__content ol.publications,
-  .page__content ol {
-    list-style: none !important;   /* 关闭原生编号，防止被主题/浏览器干扰 */
-    counter-reset: pub 0;
+  /* 3) Publications：强制顺序编号（跨多个列表也连续） */
+  /* 思路：在页面容器上做一次 counter-reset；只给 .bibliography 的 li 计数与编号 */
+  body.layout--archive .page__content { counter-reset: pub; }
+
+  body.layout--archive ol.bibliography {
+    list-style: none !important;   /* 关闭浏览器/主题默认编号，避免 reversed 等干扰 */
     margin-left: 0;
-    padding-left: 2.2em;           /* 给自定义编号留位置 */
+    padding-left: 2.2em;           /* 给自定义编号留出左侧空间 */
   }
-
-  .page__content ol.bibliography > li,
-  .page__content ol.publications > li,
-  .page__content ol > li {
-    counter-increment: pub;
+  body.layout--archive ol.bibliography > li {
+    counter-increment: pub;        /* 每个条目 +1 */
     position: relative;
     margin: 0.35em 0;
   }
-
-  .page__content ol.bibliography > li::before,
-  .page__content ol.publications > li::before,
-  .page__content ol > li::before {
+  body.layout--archive ol.bibliography > li::before {
     content: counter(pub) ".";
     position: absolute;
-    left: -2.2em;                  /* 与上面的 padding-left 对齐 */
+    left: -2.2em;
     width: 2em;
     text-align: right;
     font-weight: 600;
     color: #000;
   }
+
 </style>
-
-
 
 
 
