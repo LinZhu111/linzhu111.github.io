@@ -118,23 +118,31 @@
     text-shadow: 0 0 4px rgba(0,0,0,0.6); /* 黑色柔光阴影，提升可读性 */
   }
 
-  /* === 顶部导航栏透明化 === */
+  /* === 顶部导航栏透明化（强制覆盖） === */
   .masthead,
-  .masthead .site-header,
-  .masthead .site-nav,
-  .masthead .site-nav .trigger,
+  .masthead::before,
   .site-header,
-  .site-nav {
+  .site-header::before,
+  .site-nav,
+  .site-nav::before {
     background: transparent !important;
-    box-shadow: none !important;  /* 去掉可能的阴影线条 */
+    box-shadow: none !important;
+    border: none !important;
   }
   
-  /* 保证导航文字颜色足够清晰（白色+阴影） */
+  /* 去掉 masthead 内可能的边框线 */
+  .masthead,
+  .site-header {
+    border: 0 !important;
+  }
+  
+  /* 导航文字设为白色，并加黑色阴影增强可读性 */
   .masthead a,
   .site-nav a {
-    color: #fff !important;   /* 白色文字 */
-    text-shadow: 0 0 4px rgba(0,0,0,0.6); /* 黑色柔光阴影，增强对比 */
+    color: #fff !important;
+    text-shadow: 0 0 4px rgba(0,0,0,0.6);
   }
+
 
 </style>
 
