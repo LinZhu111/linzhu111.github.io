@@ -170,76 +170,54 @@ img[alt="avatar"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 可选：柔和阴影 */
 }
 
-/* ===== FINAL: Publications 连续编号（作用于 .pubs 容器内） ===== */
+/* ===== Publications 连续编号（Grid 对齐版，仅 .pubs 内） ===== */
 .page__content .pubs { counter-reset: pub !important; }
 
-/* 隐藏原生编号/圆点，留出自定义序号空间 */
+/* 去掉原生编号/缩进 */
 .page__content .pubs ol,
-.page__content .pubs ul,
-.page__content .pubs ol.bibliography {
+.page__content .pubs ul {
   list-style: none !important;
-  margin-left: 0 !important;
-  padding-left: 2.25em !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* 每个 li 递增，同一个 .pubs 容器内跨所有列表持续计数 */
+/* 两列网格：左列数字，右列正文；多行自动对齐 */
 .page__content .pubs li {
   counter-increment: pub !important;
-  position: relative !important;
+  display: grid !important;
+  grid-template-columns: 3.8ch 1fr !important;  /* 数字列宽，2位数够用；3位数可调到 4.4ch */
+  column-gap: 0.6ch !important;
+  align-items: start !important;                /* 顶部对齐，避免上下不齐 */
   margin: 0.35em 0 !important;
+
+  /* 清理旧规则的影响 */
+  position: static !important;
+  padding: 0 !important;
 }
 
-/* 显示我们自己的数字（1. 2. 3. …） */
+/* 数字：放左列，右对齐；用等宽数字 */
 .page__content .pubs li::before {
-  content: counter(pub) ".";
-  position: absolute;
-  left: 0;
-  width: 2em;
-  text-align: right;
+  content: counter(pub) "." !important;
+  grid-column: 1 !important;
+  display: block !important;                    /* 块级，避免基线偏差 */
+  text-align: right !important;
+  font-variant-numeric: tabular-nums !important;
   font-weight: 700;
-  color: #000;         /* 深色底可改 #fff */
+  line-height: 1.6;                             /* 与正文行高一致，观感更稳 */
+  color: #000;                                  /* 深色背景可改 #fff */
 }
 
-/* 防止其它地方把有序列表强制成小圆点/decimal */
+/* 保险：隐藏浏览器自带的 marker，避免双编号 */
 .page__content .pubs ol > li::marker,
-.page__content .pubs ul > li::marker { 
+.page__content .pubs ul > li::marker {
   content: "" !important;
 }
 
-/* === 修复 .pubs 序号与文字重叠 === */
-.page__content .pubs li{
-  position: relative !important;
-  counter-increment: pub !important;
-  align-items: start !important;   /* ← 顶部对齐 */
-  margin: 0.35em 0 !important;
-
-  /* 给序号留更宽的空间：用 ch 单位随位数自适应 */
-  padding-left: 3.5ch !important;                 /* 3.5~4ch 都可 */
-}
-
-.page__content .pubs li::before{
-  content: counter(pub) ".";
-  position: absolute;
-  left: 0;
-  width: 3ch;                                     /* 序号区域宽度 */
-  text-align: right;
-  font-weight: 700;
-  color: #000;                                    /* 深底用 #fff */
-  font-variant-numeric: tabular-nums;             /* 等宽数字，齐整 */
-  line-height: 1.4;
-}
-
-/* 保险：移除原生 marker，避免双编号 */
-.page__content .pubs ol > li::marker,
-.page__content .pubs ul > li::marker { 
-  content: "" !important;
-}
-
-/* （可选）小屏上再放宽一点避免挤压 */
+/* 小屏可适当放宽数字列 */
 @media (max-width: 640px){
-  .page__content .pubs li{ padding-left: 4ch !important; }
-  .page__content .pubs li::before{ width: 3.5ch; }
+  .page__content .pubs li { grid-template-columns: 4.2ch 1fr !important; }
 }
+
 
 
 </style>
