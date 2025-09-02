@@ -17,7 +17,7 @@ Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5
 
 Research Interests
 ======
-AI4Education, Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
+AI+Education, Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
 招收25届研究生，欢迎提前联系！
 
@@ -85,7 +85,7 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 ------
 16. **L Zhu**, K Jia, Y Zhao, Y Qi, L Wang, H Huang. SpikeNeRF: Learning Neural Radiance Fields from Continuous Spike Stream. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
-2. M Geng, **L Zhu\***, L Wang, W Zhang, R Xiong, Y Tian\*. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
+17. M Geng, **L Zhu\***, L Wang, W Zhang, R Xiong, Y Tian\*. Event-based Visible and Infrared Fusion via Multi-task Collaboration. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
    
 3. X Wang, L Wang, X Ma, M Zhang, **L Zhu**, H Huang. In2SET: Intra-Inter Similarity Exploiting Transformer for Dual-Camera Compressive Hyperspectral Imaging. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024._ **(CCF-A).**
 
