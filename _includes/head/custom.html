@@ -40,21 +40,22 @@
 <!-- end custom head snippets -->
 
 
-<!-- === Custom style for background, content, sitemap, and publications === -->
+<!-- === Clean replacement: background (non-sitemap only) + solid content + stable sitemap + forced numbering === -->
 <style>
   html, body { height: 100%; }
 
-  /* === 非 sitemap 页面：启用背景 === */
+  /* 仅非 sitemap 页面启用全屏背景（sitemap 完全排除） */
   body:not(.layout--sitemap)::before {
     content: "";
     position: fixed;
     inset: 0;
+    /* ↓ 按你的路径修改：/images 或 /assets/images */
     background: url("{{ '/images/background.jpg' | relative_url }}") no-repeat center center / cover;
     z-index: -2;
     pointer-events: none;
   }
 
-  /* 非 sitemap 页面容器透明，让背景透出 */
+  /* 非 sitemap 页面：让外围容器透明，以便看见背景 */
   body:not(.layout--sitemap) .initial-content,
   body:not(.layout--sitemap) .page,
   body:not(.layout--sitemap) .masthead,
@@ -63,41 +64,75 @@
     background: transparent !important;
   }
 
-  /* === 正文区域：白底黑字，保证可读性 === */
+  /* 正文区：白底黑字（所有页面），保证可读性 */
   .page__content {
-    background: #fff !important;   /* 白底 */
-    color: #000 !important;        /* 黑字 */
-    border-radius: 8px;            /* 圆角，可选 */
-    padding: 1.5rem;               /* 内边距 */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* 阴影，可选 */
+    background: #fff !important;
+    color: #000 !important;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
-
   .page__content h1,
   .page__content h2,
   .page__content h3,
-  .page__content h4 {
-    color: #000 !important;
-  }
+  .page__content h4 { color: #000 !important; }
 
-  /* === sitemap 页面：禁用背景，恢复默认样式 === */
-  body.layout--sitemap::before {
-    content: none !important;
-  }
+  /* === Sitemap 页面：完全恢复主题默认（不使用背景、不透明、不改定位） === */
+  body.layout--sitemap::before { content: none !important; }
+
   body.layout--sitemap .initial-content,
   body.layout--sitemap .page,
   body.layout--sitemap .page__content,
   body.layout--sitemap .masthead,
   body.layout--sitemap .sidebar,
-  body.layout--sitemap .site-footer {
+  body.layout--sitemap .site-footer,
+  body.layout--sitemap .page__footer {
     background: #fff !important;
     color: #000 !important;
   }
 
-  /* === Publications & 所有有序列表：恢复顺序编号 === */
-  .page__content ol,
-  .page__content ol.bibliography {
-    list-style: decimal !important;
-    margin-left: 1.5em;
+  /* 撤销任何可能遗留的 footer 定位改动（确保 sitemap 不“乱动”） */
+  body.layout--sitemap .site-footer,
+  body.layout--sitemap .page__footer {
+    position: static !important;
+    left: auto; right: auto; bottom: auto; width: auto;
+    z-index: auto;
+  }
+  body.layout--sitemap .initial-content,
+  body.layout--sitemap .page,
+  body.layout--sitemap .page__content {
+    padding-bottom: 0 !important;
+  }
+
+  /* === Publications / 有序列表：用 CSS 计数器强制顺序编号 ===
+     不依赖 <ol reversed> 或主题样式，按 DOM 顺序 1,2,3... 显示 */
+  .page__content ol.bibliography,
+  .page__content ol.publications,
+  .page__content ol {
+    list-style: none !important;   /* 关闭原生编号，防止被主题/浏览器干扰 */
+    counter-reset: pub 0;
+    margin-left: 0;
+    padding-left: 2.2em;           /* 给自定义编号留位置 */
+  }
+
+  .page__content ol.bibliography > li,
+  .page__content ol.publications > li,
+  .page__content ol > li {
+    counter-increment: pub;
+    position: relative;
+    margin: 0.35em 0;
+  }
+
+  .page__content ol.bibliography > li::before,
+  .page__content ol.publications > li::before,
+  .page__content ol > li::before {
+    content: counter(pub) ".";
+    position: absolute;
+    left: -2.2em;                  /* 与上面的 padding-left 对齐 */
+    width: 2em;
+    text-align: right;
+    font-weight: 600;
+    color: #000;
   }
 </style>
 
