@@ -47,7 +47,7 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 
 
 
-<div class="pubs">
+<div class="pubs" markdown="1">
 
 ## 2025
 - **L Zhu**, R Liu, X Wang, L Wang, H Huang. Revealing Latent Information: A Physics-inspired Self-supervised Pre-training Framework for Noisy and Sparse Events. In _ACM International Conference on Multimedia (ACM MM), 2025._ **(CCF-A).**
