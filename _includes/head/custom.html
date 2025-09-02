@@ -39,11 +39,9 @@
 
 <!-- end custom head snippets -->
 
-<!-- === Custom style: background (non-sitemap) + sitemap restore + content frosted glass === -->
+<!-- === Full-page background for all pages EXCEPT sitemap === -->
 <style>
-  html, body { height: 100%; }
-
-  /* 1) 背景：仅非 sitemap 页面启用 */
+  /* 仅非 sitemap 页面启用背景与透明 */
   body:not(.layout--sitemap)::before {
     content: "";
     position: fixed;
@@ -53,31 +51,23 @@
     pointer-events: none;
   }
 
-  /* 可选：半透明遮罩，进一步提升对比度 */
-  body:not(.layout--sitemap)::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.35); /* 调整透明度 0~1，越大越暗 */
-    z-index: -1;
-    pointer-events: none;
-  }
-
-  /* 让非 sitemap 页面容器透明，背景透出 */
+  /* 非 sitemap 页面让常见容器透明，背景能透出 */
   body:not(.layout--sitemap) .initial-content,
   body:not(.layout--sitemap) .page,
+  body:not(.layout--sitemap) .page__content,
   body:not(.layout--sitemap) .masthead,
   body:not(.layout--sitemap) .sidebar,
   body:not(.layout--sitemap) .site-footer {
     background: transparent !important;
   }
 
-  /* 2) sitemap 页面：恢复主题默认（无背景/不透明/不改定位） */
+  /* === sitemap 页面：严格恢复主题默认行为（不套背景/不透明/不改定位） === */
   body.layout--sitemap::before,
   body.layout--sitemap::after {
-    content: none !important;
+    content: none !important;   /* 去掉我们加的背景与遮罩 */
   }
 
+  /* 恢复 sitemap 页面容器与 footer 的背景（覆盖 transparent） */
   body.layout--sitemap .initial-content,
   body.layout--sitemap .page,
   body.layout--sitemap .page__content,
@@ -89,6 +79,7 @@
     color: #000 !important;
   }
 
+  /* 撤销 footer 定位改动，交给主题默认 */
   body.layout--sitemap .site-footer,
   body.layout--sitemap .page__footer {
     position: static !important;
@@ -96,6 +87,7 @@
     z-index: auto;
   }
 
+  /* 避免之前为固定 footer 预留的 padding-bottom 影响 sitemap */
   body.layout--sitemap .initial-content,
   body.layout--sitemap .page,
   body.layout--sitemap .page__content {
