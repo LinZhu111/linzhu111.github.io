@@ -63,6 +63,8 @@
 
   /* === 正文：毛玻璃（仅非 sitemap 页面） === */
   body:not(.layout--sitemap) .page__content {
+    background: rgba(255, 255, 255, 0.85) !important; /* 半透明白底 */
+    backdrop-filter: blur(8px);                       /* 毛玻璃模糊 */
     -webkit-backdrop-filter: blur(8px);               /* Safari 兼容 */
     color: #000 !important;
     border-radius: 8px;
@@ -118,7 +120,6 @@
 
   /* === Sidebar 清晰度优化补丁 === */
   body:not(.layout--sitemap) .sidebar {
-    background: rgba(255,255,255,0.92) !important;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     -webkit-font-smoothing: antialiased;
