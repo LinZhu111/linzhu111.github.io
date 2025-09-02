@@ -37,62 +37,6 @@
 
 <!-- end custom head snippets -->
 
-<!-- === Full-page background for all pages EXCEPT sitemap === -->
-<style>
-  /* 仅非 sitemap 页面启用背景与透明 */
-  body:not(.layout--sitemap)::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: url("{{ '/images/background1.jpg' | relative_url }}") no-repeat center center / cover;
-    z-index: -2;
-    pointer-events: none;
-  }
-
-
-  /* 非 sitemap 页面让常见容器透明，背景能透出 */
-  body:not(.layout--sitemap) .initial-content,
-  body:not(.layout--sitemap) .page,
-  body:not(.layout--sitemap) .page__content,
-  body:not(.layout--sitemap) .masthead,
-  body:not(.layout--sitemap) .sidebar,
-  body:not(.layout--sitemap) .site-footer {
-    background: transparent !important;
-  }
-
-  /* === sitemap 页面：严格恢复主题默认行为（不套背景/不透明/不改定位） === */
-  body.layout--sitemap::before,
-  body.layout--sitemap::after {
-    content: none !important;   /* 去掉我们加的背景与遮罩 */
-  }
-
-  /* 恢复 sitemap 页面容器与 footer 的背景（覆盖之前的 transparent !important） */
-  body.layout--sitemap .initial-content,
-  body.layout--sitemap .page,
-  body.layout--sitemap .page__content,
-  body.layout--sitemap .masthead,
-  body.layout--sitemap .sidebar,
-  body.layout--sitemap .site-footer,
-  body.layout--sitemap .page__footer {
-    background: #fff !important;
-  }
-
-  /* 若你曾给 footer 设过 position/fixed/sticky，这里统一撤销，交给主题默认 */
-  body.layout--sitemap .site-footer,
-  body.layout--sitemap .page__footer {
-    position: static !important;   /* 让主题按原逻辑展示 */
-    left: auto; right: auto; bottom: auto; width: auto;
-    z-index: auto;
-  }
-
-  /* 避免之前为固定 footer 预留的 padding-bottom 影响 sitemap */
-  body.layout--sitemap .initial-content,
-  body.layout--sitemap .page,
-  body.layout--sitemap .page__content {
-    padding-bottom: 0 !important;
-  }
-</style>
-
 
 
 
