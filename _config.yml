@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Lin Zhu"
-  avatar           : "\images\avatar_compressed.jpg" #"https://i.postimg.cc/vHbBfLTR/photo1.jpg" https://i.postimg.cc/L6KFJ0rx/image.jpg
+  avatar           : "/images/avatar_compressed.jpg" #"https://i.postimg.cc/vHbBfLTR/photo1.jpg" https://i.postimg.cc/L6KFJ0rx/image.jpg
   bio              : "Ph.D., Assistant Professor, Associate Researcher"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
