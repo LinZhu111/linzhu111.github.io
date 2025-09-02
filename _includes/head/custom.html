@@ -240,7 +240,27 @@ img[alt="avatar"] {
   .page__content .pubs li::before{ width: 3.5ch; }
 }
 
-  
+  .page__content .pubs li {
+  counter-increment: pub !important;
+  display: grid !important;
+  grid-template-columns: 3.8ch 1fr !important; /* 调大以容纳两位数 */
+  column-gap: 0.6ch !important;
+  align-items: start !important;   /* ← 顶部对齐 */
+  margin: 0.35em 0 !important;
+  padding: 0 !important;
+}
+
+.page__content .pubs li::before {
+  content: counter(pub) "." !important;
+  grid-column: 1 !important;
+  display: block !important;       /* ← 改成块级，避免基线偏移 */
+  text-align: right !important;
+  font-variant-numeric: tabular-nums !important; /* 等宽数字更整齐 */
+  font-weight: 700;
+  color: #000;                     /* 深底可改 #fff */
+  line-height: 1.5;                /* 与正文行高保持一致 */
+}
+
 </style>
 
 
