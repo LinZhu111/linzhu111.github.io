@@ -152,6 +152,32 @@
     border: 0 !important;
   }
 
+  /* === Publications 列表强制顺序编号 === */
+  .page__content ol.bibliography,
+  .page__content ol.publications {
+    list-style: none !important;   /* 去掉默认数字/点 */
+    counter-reset: pub;            /* 初始化计数器 */
+    margin-left: 0;
+    padding-left: 2.2em;           /* 给数字留出位置 */
+  }
+  
+  .page__content ol.bibliography > li,
+  .page__content ol.publications > li {
+    counter-increment: pub;        /* 每条记录 +1 */
+    position: relative;
+    margin: 0.35em 0;
+  }
+  
+  .page__content ol.bibliography > li::before,
+  .page__content ol.publications > li::before {
+    content: counter(pub) ".";
+    position: absolute;
+    left: -2em;                    /* 数字左对齐 */
+    width: 2em;
+    text-align: right;
+    font-weight: 600;
+    color: #000;
+  }
 
 </style>
 
