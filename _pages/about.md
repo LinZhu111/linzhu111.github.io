@@ -11,8 +11,8 @@ redirect_from:
 **Assistant Professor**  
 School of Computer Science & Technology  
 Beijing Institute of Technology  
-E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn
-Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
+E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn  
+Addr: Rm. 814, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
 Research Interests
