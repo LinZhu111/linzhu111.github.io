@@ -1,4 +1,4 @@
----
+<img width="2313" height="140" alt="image" src="https://github.com/user-attachments/assets/b635126c-4aba-428e-8620-39d9f87ad241" />---
 permalink: /
 title: "Lin Zhu （朱林）"
 excerpt: "About me"
@@ -11,7 +11,7 @@ redirect_from:
 **Assistant Professor**  
 School of Computer Science & Technology  
 Beijing Institute of Technology  
-E-mail: linzhu at bit.edu.cn  
+E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn
 Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
@@ -51,6 +51,9 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 <div class="pubs" markdown="1">
 
 ## 2025
+- **L Zhu**, R Liu, X Wang, L Wang, H Huang. EMatch: A Unified Framework for Event-based Optical Flow and Stereo Matching. In _Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2025._ **(CCF-A).**
+- R Liu, **L Zhu\***, X Wang, L Wang, H Huang. Noise-Modeled Diffusion Models for Low-Light Spike Image Restoration. In _Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2025._ **(CCF-A).**
+- **L Zhu**, T Long, X Wang, L Wang, H Huang. Rethinking Scale-Aware Temporal Encoding for Event-based Object Detection. In _Proceedings of the Conference on Neural Information Processing Systems (NeurIPS), 2025._ **(CCF-A).**
 - **L Zhu**, R Liu, X Wang, L Wang, H Huang. Revealing Latent Information: A Physics-inspired Self-supervised Pre-training Framework for Noisy and Sparse Events. In _ACM International Conference on Multimedia (ACM MM), 2025._ **(CCF-A).**
 - X Ma, L Wang, X Wang, W Song, Q Sun, **L Zhu**, H Huang. Learning Refractive-Diffractive Optics with Unidirectional Transformer for Large Field-of-View Imaging. _International Journal of Computer Vision, 2025._ **(CCF-A).**
 - Y Zhu, X Wang, C Li, B Jiang, **L Zhu**, Z Huang, Y Tian, J Tang. CRSOT: Cross-resolution Object Tracking using Unaligned Frame and Event Cameras. _IEEE Transactions on Multimedia, 2025._ **(CCF-B).**
