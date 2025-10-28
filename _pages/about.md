@@ -1,13 +1,3 @@
-<img width="2313" height="140" alt="image" src="https://github.com/user-attachments/assets/b635126c-4aba-428e-8620-39d9f87ad241" />---
-permalink: /
-title: "Lin Zhu （朱林）"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 **Assistant Professor**  
 School of Computer Science & Technology  
 Beijing Institute of Technology  
