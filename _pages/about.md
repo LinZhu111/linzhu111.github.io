@@ -10,8 +10,7 @@ redirect_from:
 
 **Assistant Professor**  
 School of Computer Science & Technology  
-Beijing Institute of Technology  
-E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn  
+Beijing Institute of Technology    
 Addr: Rm. 814, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
@@ -20,6 +19,8 @@ Research Interests
 AI+Education, Computer Vision, Deep Learning, Spiking Neural Network, Brain-inspired Computing, Neuromorphic Vision.
 
 招收26届研究生，欢迎提前联系！
+
+E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn  
 
 News and Events
 ======
