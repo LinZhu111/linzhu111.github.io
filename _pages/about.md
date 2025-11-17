@@ -18,7 +18,7 @@ Research Interests
 ======
 AI+Education, Document AI, Optical Character Recognition, Computer Vision, Deep Learning.
 
-招收26届研究生，欢迎提前联系！
+招收北师大人工智能学院26届硕士生、博士生，欢迎提前联系！
 
 E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn  
 
