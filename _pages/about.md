@@ -16,7 +16,7 @@ Addr: Rm. 814, Central Teaching Building, Beijing Institute of Technology, No. 5
 
 Research Interests
 ======
-AI+Education, Document AI, Optical Character Recognition, Computer Vision, Deep Learning.
+AI+Education, Computer Vision, Deep Learning.
 
 招收26届硕士生、博士生，欢迎联系！
 
