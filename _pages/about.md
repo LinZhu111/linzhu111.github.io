@@ -14,6 +14,8 @@ Beijing Institute of Technology
 Addr: Rm. 814, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 
+I am an assistant professor at the School of Computer Science & Technology, Beijing Institute of Technology, and also serve as an associate researcher and a supervisor for master’s students. I received my Ph.D. in Computer Science from Peking University in 2022 and was a visiting researcher at the Artificial Intelligence Center of Peng Cheng Laboratory from 2019 to 2021. My research interests include computer vision, neuromorphic vision, image processing, and neuromorphic computing. I have published over 60 papers in leading international journals and conferences such as IEEE TPAMI, IEEE TIP, CVPR, ICCV, AAAI, and ACM MM. I have led several research projects, including the National Natural Science Foundation of China (Young Scientists Program) and the Postdoctoral Innovative Talent Support Program (“Boxin Plan”), and was nominated for the CSIG Outstanding Doctoral Dissertation Award in 2022. I recruit 2–4 master’s and PhD students each year and welcome highly motivated students with strong research interests and solid programming skills. My research group provides a supportive environment with sufficient computational resources, research funding, and opportunities for domestic and international academic exchange.
+
 Research Interests
 ======
 AI+Education, Computer Vision, Deep Learning.
