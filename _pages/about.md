@@ -27,6 +27,7 @@ E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn
 News and Events
 ======
 (from 2023)
+- 2026.1 I was appointed as an Associate Editor for IEEE Transactions on Image Processing (TIP)
 - 2025 I was named NeurIPS 2025 Top Reviewer
 - 2025 Two papers were accepted by NeurIPS 2025
 - 2025 One paper was accepted by ACM MM 2025
