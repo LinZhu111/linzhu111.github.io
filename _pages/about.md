@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 **Assistant Professor**  
-School of Computer Science & Technology  
-Beijing Institute of Technology    
-Addr: Rm. 814, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
+School of Artificial Intelligence 
+Beijing Normal University    
+Addr: Rm. 201, Electronic Building, Haidian Campus / Rm. 522, Library, Zone G, Changping Campus, Beijing Normal University, China
 
 
-I am an assistant professor at the School of Computer Science & Technology, Beijing Institute of Technology, and also serve as an associate researcher and a supervisor for master’s students. I received my Ph.D. in Computer Science from Peking University in 2022 and was a visiting researcher at the Artificial Intelligence Center of Peng Cheng Laboratory from 2019 to 2021. My research interests include computer vision, neuromorphic vision, image processing, and neuromorphic computing. I have published over 60 papers in leading international journals and conferences such as IEEE TPAMI, IEEE TIP, CVPR, ICCV, AAAI, and ACM MM. I have led several research projects, including the National Natural Science Foundation of China (Young Scientists Program) and the Postdoctoral Innovative Talent Support Program (“Boxin Plan”), and was nominated for the CSIG Outstanding Doctoral Dissertation Award in 2022. I recruit 2–4 master’s and PhD students each year and welcome highly motivated students with strong research interests and solid programming skills. My research group provides a supportive environment with sufficient computational resources, research funding, and opportunities for domestic and international academic exchange.
+I am an associate professor at the School of Artificial Intelligence, Beijing Normal University. I received my Ph.D. in Computer Science from Peking University in 2022 and was a visiting researcher at the Artificial Intelligence Center of Peng Cheng Laboratory from 2019 to 2021. My research interests include computer vision, neuromorphic vision, image processing, and neuromorphic computing. I have published over 60 papers in leading international journals and conferences such as IEEE TPAMI, IEEE TIP, CVPR, ICCV, AAAI, and ACM MM. I have led several research projects, including the National Natural Science Foundation of China (Young Scientists Program) and the Postdoctoral Innovative Talent Support Program (“Boxin Plan”), and was nominated for the CSIG Outstanding Doctoral Dissertation Award in 2022. I recruit 2–4 master’s and PhD students each year and welcome highly motivated students with strong research interests and solid programming skills. My research group provides a supportive environment with sufficient computational resources, research funding, and opportunities for domestic and international academic exchange.
 
 Research Interests
 ======
@@ -27,6 +27,7 @@ E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn
 News and Events
 ======
 (from 2023)
+- 2026.1 One paper was accepted by IEEE TPAMI
 - 2026.1 I was appointed as an Associate Editor for IEEE Transactions on Image Processing (TIP)
 - 2025 I was named NeurIPS 2025 Top Reviewer
 - 2025 Two papers were accepted by NeurIPS 2025
