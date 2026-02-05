@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**Lin Zhu （朱林）Assistant Professor**  
+**Lin Zhu （朱林）Associate Professor**  
 Lin Zhu, an assistant professor in the School of Computer Science & Technology, Beijing Institute of Technology, is also an associate researcher and a supervisor for master's students. He obtained his Ph.D. degree from Peking University's Computer Science Department in 2022. From 2019 to 2021, he engaged in academic exchanges at the Artificial Intelligence Center of Peng Cheng Laboratory. His primary research areas include computer vision, neural morphological vision, image processing, and neuromorphic computing. He has published over 60 research papers in top international journals and conferences such as IEEE TPAMI, IEEE TIP, CVPR, ICCV, AAAI, ACM MM, and holds more than 10 domestic and international patents, with 10 of them already granted.
 
 He leads various research projects, including the National Natural Science Foundation of China for Young Scientists and the Postdoctoral Innovative Talent Support Program (referred to as "Boxin Plan"). In 2022, he was nominated for the Outstanding Doctoral Dissertation Award by the China Society of Image and Graphics (CSIG).
