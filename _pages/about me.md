@@ -39,4 +39,4 @@ Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5
 
 For more info
 ------
-More info can be found in [中文介绍](https://cs.bit.edu.cn/szdw/jsml/fjs/7125f0050e1244779308fa53add3e3b8/index.htm).
+More info can be found in [中文介绍](https://ai.bnu.edu.cn/xygk/szdw/fgj/c7c1aebbf8b8461796f947d17dbf41b4.htm).
