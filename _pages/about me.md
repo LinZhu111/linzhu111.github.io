@@ -34,7 +34,7 @@ Contact
 ------
 School of Computer Science & Technology  
 Beijing Institute of Technology  
-E-mail: linzhu at bit.edu.cn  
+E-mail: linzhu at bnu.edu.cn  
 Addr: Rm. 816, Central Teaching Building, Beijing Institute of Technology, No. 5, South Street, Zhongguancun, Beijing 100081, China
 
 For more info
