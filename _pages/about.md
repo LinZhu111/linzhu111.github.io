@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**Assistant Professor**  
+**Associate Professor**  
 School of Artificial Intelligence 
 Beijing Normal University    
 Addr: Rm. 201, Electronic Building, Haidian Campus / Rm. 522, Library, Zone G, Changping Campus, Beijing Normal University, China
@@ -22,7 +22,7 @@ AI+Education, Computer Vision, Deep Learning.
 
 招收26届硕士生、博士生，欢迎联系！
 
-E-mail: linzhu at bit.edu.cn / linzhu at pku.edu.cn  
+E-mail: linzhu at bnu.edu.cn / linzhu at pku.edu.cn  
 
 News and Events
 ======
@@ -143,4 +143,4 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 
 
 ------
-More info can be found in [中文介绍](https://cs.bit.edu.cn/szdw/jsml/fjs/7125f0050e1244779308fa53add3e3b8/index.htm).
+More info can be found in [中文介绍](https://ai.bnu.edu.cn/xygk/szdw/fgj/c7c1aebbf8b8461796f947d17dbf41b4.htm).
