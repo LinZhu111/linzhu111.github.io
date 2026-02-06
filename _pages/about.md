@@ -16,6 +16,8 @@ Addr: Rm. 201, Electronic Building, Haidian Campus / Rm. 522, Library, Zone G, C
 
 I am an associate professor at the School of Artificial Intelligence, Beijing Normal University. I received my Ph.D. in Computer Science from Peking University in 2022 and was a visiting researcher at the Artificial Intelligence Center of Peng Cheng Laboratory from 2019 to 2021. My research interests include computer vision, neuromorphic vision, image processing, and neuromorphic computing. I have published over 60 papers in leading international journals and conferences such as IEEE TPAMI, IEEE TIP, CVPR, ICCV, AAAI, and ACM MM. I have led several research projects, including the National Natural Science Foundation of China (Young Scientists Program) and the Postdoctoral Innovative Talent Support Program (“Boxin Plan”), and was nominated for the CSIG Outstanding Doctoral Dissertation Award in 2022. I recruit 2–4 master’s and PhD students each year and welcome highly motivated students with strong research interests and solid programming skills. My research group provides a supportive environment with sufficient computational resources, research funding, and opportunities for domestic and international academic exchange.
 
+More info can be found in [中文介绍](https://ai.bnu.edu.cn/xygk/szdw/fgj/c7c1aebbf8b8461796f947d17dbf41b4.htm).
+
 Research Interests
 ======
 AI+Education, Computer Vision, Deep Learning.
@@ -143,4 +145,4 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 
 
 ------
-More info can be found in [中文介绍](https://ai.bnu.edu.cn/xygk/szdw/fgj/c7c1aebbf8b8461796f947d17dbf41b4.htm).
+
