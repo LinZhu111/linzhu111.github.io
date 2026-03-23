@@ -22,7 +22,7 @@ Research Interests
 ======
 AI+Education, Computer Vision, Deep Learning.
 
-招收26届硕士生、博士生，欢迎联系！
+招收27届保研学硕、专硕、博士生，欢迎联系！
 
 E-mail: linzhu at bnu.edu.cn / linzhu at pku.edu.cn  
 
