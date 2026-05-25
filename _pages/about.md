@@ -29,6 +29,7 @@ E-mail: linzhu at bnu.edu.cn / linzhu at pku.edu.cn
 News and Events
 ======
 (from 2023)
+- 2026.5 Three papers were accepted by ICML 2026
 - 2026.2 Three papers were accepted by CVPR 2026
 - 2026.1 One paper was accepted by IEEE TPAMI
 - 2026.1 I was appointed as an Associate Editor for IEEE Transactions on Image Processing (TIP)
