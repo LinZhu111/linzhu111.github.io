@@ -29,6 +29,7 @@ E-mail: linzhu at bnu.edu.cn / linzhu at pku.edu.cn
 News and Events
 ======
 (from 2023)
+- 2026.8 Two papers were accepted by IEEE TPAMI
 - 2026.5 Three papers were accepted by ICML 2026
 - 2026.2 Three papers were accepted by CVPR 2026
 - 2026.1 One paper was accepted by IEEE TPAMI
@@ -59,6 +60,22 @@ See [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=
 
 
 <div class="pubs" markdown="1">
+
+## 2026
+- **L Zhu**, K Jia, Y Zhao, Y Qi, L Wang, H Huang. DSNeRF: Dynamic View Synthesis for Ultra-Fast Scenes From Continuous Spike Streams. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026._ **(CCF-A).**
+- H Feng, L Wang, Y Huang, Y Wang, **L Zhu**, H Huang. Learning Physics-Informed Noise Models from Dark Frames for Low-Light Raw Image Denoising. _IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026._ **(CCF-A).**
+- Y Qi, **L Zhu**, N Bao, Y Zhao, J Li. Seeing through Light and Darkness: Sensor-Physics Grounded Deblurring HDR NeRF from Single-Exposure Images and Events. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026._ **(CCF-A).**
+- X Ma, S Dong, **L Zhu**, L Wang, H Huang. Seeing Through Blur: Tackling Defocus in Spike-Based Imaging. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026._ **(CCF-A).**
+- X Xiang, **L Zhu**, W Zhang, Y Tian. Event Structural Valley: A Unified Theoretical and Practical Framework for Event Camera Autofocus. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026._ **(CCF-A).**
+- H Zhang, S Dong, J Li, R Zhao, Y Zhang, G Qin, **L Zhu**. Unleashing the Potential of Event-Based Stereo Via Coarse-to-Fine Bio-Inspired Regression. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026._ **(CCF-A).**
+- X Xiang, **L Zhu**, Y Tian. Spike Camera Autofocus via Frequency-Domain Spectral-Centroid Migration. In _Proceedings of the International Conference on Machine Learning (ICML), 2026._ **(CCF-A).**
+- S Jiang, **L Zhu**, R Li, M Wang, Q Zhu, Y Zhong, H Huang. Seeing Symbols, Missing Structure: A Real-World Handwritten Mathematical Expression Recognition Benchmark for Large Models. In _Proceedings of the International Conference on Machine Learning (ICML), 2026._ **(CCF-A).**
+- X Xiang, **L Zhu**, W Zhang, Y Tian. Event Temporal Upsampling through High Frame Rate Brightness Changes Estimation. _IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026._ **(CCF-B).**
+- S Wang, X Wang, L Jin, B Jiang, **L Zhu**, L Chen, Y Tian, B Luo. Towards Low-Latency Event Stream-Based Visual Object Tracking: A Slow-Fast Approach. _IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026._ **(CCF-B).**
+- X Wang, J Jiang, Q Chen, L Chen, **L Zhu**, Y Wang, Y Tian, J Tang. ESTR-CoT: Towards Explainable and Accurate Event Stream Based Scene Text Recognition with Chain-of-Thought Reasoning. _Neurocomputing, 2026._ **(CCF-C).**
+- X Wang, S Wang, P Shao, **L Zhu**, B Jiang, Y Tian. Event Stream Based Human Action Recognition: A High-Definition Benchmark Dataset and Algorithms. _International Journal of Computer Vision (IJCV), 134(4), 181, 2026._ **(CCF-A).**
+- S Wang, X Wang, H Zhao, J Xu, B Jiang, **L Zhu**, X Zhao, Y Tian, J Tang. Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event Based Visual Object Tracking. _arXiv preprint arXiv:2601.01022, 2026._
+- R Li, **L Zhu**, H Huang. DTRNet: Dual Text-Radical Decoding for Handwritten Chinese Text Recognition with Faked Character Detection. _ACM MM, 2026， Oral._ **(CCF-A).**
 
 ## 2025
 - **L Zhu**, R Liu, X Wang, L Wang, H Huang. EMatch: A Unified Framework for Event-based Optical Flow and Stereo Matching. In _Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2025._ **(CCF-A).**
